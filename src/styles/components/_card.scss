@@ -14,14 +14,13 @@
     z-index: 2;
   }
 
-  &:hover .infos {
+  &:hover .infos, &:hover .nomPays, &:hover .nomCapitale {
     opacity: 1;
-    transform: scaleY(1);
+    transform: scaleY(0.5);
   }
 
-  .infos {
+  .infos, .nomPays, .nomCapitale {
     position: absolute;
-    top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.7);
     color: $white;
@@ -30,11 +29,22 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
     opacity: 0;
     transform: scaleY(0);
     transition: 0.3s;
   }
+
+  .nomPays {
+    bottom: 25%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .nomCapitale {
+    top: 25%;
+    border-radius: 0 0 10px 10px;
+    
+  }
+
   img {
     height: 100px;
     width: 160px;
