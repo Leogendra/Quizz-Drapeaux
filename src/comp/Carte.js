@@ -1,19 +1,23 @@
 import React from 'react';
 
 const Carte = ({ pays }) => {
+    const getPopulation = () => {
+        if (pays.population > 1000000) {
+            return (pays.population / 1000000).toFixed(0) + "M";
+        } else if (pays.population > 1000) {
+            return (pays.population / 1000).toFixed(0) + "K";
+        } else {
+            return pays.population;
+        }
+    };
     return (
         <li className="card">
             <img 
                 src={pays.flags.svg} 
                 alt={"drapeau " + pays.translations.fra.common} 
             />
-            {/* <div className="infos">
-                <h2>{pays.translations.fra.common}</h2>
-                <h2>{pays.capital}</h2>
-                <h4>pop : {pays.population.toLocaleString()}</h4>
-            </div> */}
             
-            <h4>pop : {pays.population.toLocaleString()}</h4>
+            <h4>pop : {getPopulation()}</h4>
             <div className="nomPays">
                 <h2>{pays.translations.fra.common}</h2>
             </div>

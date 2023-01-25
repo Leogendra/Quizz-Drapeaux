@@ -4,6 +4,7 @@
   width: 160px;
   border-radius: 4px;
   transition: 0.3s;
+  margin: 10px 3px 25px;
 
   h2 {
     font-size: 1rem;
@@ -17,6 +18,11 @@
   &:hover .infos, &:hover .nomPays, &:hover .nomCapitale {
     opacity: 1;
     transform: scaleY(0.5);
+  }
+
+  &:hover .nomPays > h2, &:hover .nomCapitale > h2  {
+    opacity: 1;
+    transform: scaleY(2);
   }
 
   .infos, .nomPays, .nomCapitale {
