@@ -8,6 +8,7 @@
 
   h2 {
     font-size: 1rem;
+    transform: scaleY(2);
   }
 
   &:hover {
@@ -15,17 +16,19 @@
     z-index: 2;
   }
 
-  &:hover .infos, &:hover .nomPays, &:hover .nomCapitale {
+  .nomPays:hover {
     opacity: 1;
     transform: scaleY(0.5);
+    z-index: 3;
   }
 
-  &:hover .nomPays > h2, &:hover .nomCapitale > h2  {
+  .nomCapitale:hover {
     opacity: 1;
-    transform: scaleY(2);
+    transform: scaleY(0.5);
+    z-index: 3;
   }
 
-  .infos, .nomPays, .nomCapitale {
+  .nomPays, .nomCapitale {
     position: absolute;
     left: 0;
     background: rgba(0, 0, 0, 0.7);
@@ -36,7 +39,7 @@
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transform: scaleY(0);
+    transform: scaleY(0.5);
     transition: 0.3s;
   }
 

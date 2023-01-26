@@ -4,7 +4,7 @@
   .radio-container {
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 0px 10px 20px;
     background: $color-3;
     border-radius: 20px;
     padding: 10px;
@@ -15,11 +15,13 @@
       transform: translateY(1px);
     }
 
-    label {
+    label:not(.continent) {
       margin-left: 5px;
+      margin-right: 10px;
       cursor: pointer;
     }
   }
+
   input[type="text"] {
     padding: 10px;
     border-radius: 40px;
@@ -50,6 +52,21 @@
     &:hover {
       background: $color-1;
     }
+  }
+
+  .allCountry {
+    background: $color-1;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+  select {
+    border: 2px solid $color-1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
   }
 
   ul {

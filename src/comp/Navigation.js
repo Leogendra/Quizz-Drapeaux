@@ -9,10 +9,10 @@ const Navigation = () => {
                         <li>Drapeaux</li>
                     </NavLink>
                     <NavLink to="about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>à propos</li>
+                        <li>À propos</li>
                     </NavLink>
                     <NavLink to="/next" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>à venir</li>
+                        <li>À venir</li>
                     </NavLink>
                 </ul>
             </div>
