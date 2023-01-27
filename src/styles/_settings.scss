@@ -8,7 +8,9 @@ $font-1: "font-1", sans-serif;
 $color-1: #61dafb;
 $color-2: salmon;
 $color-3: #282c34;
+$color-4: #33de4f;
 $white: rgb(243, 243, 243);
+$black: black;
 
 @mixin verticalCenter {
   display: flex;
@@ -25,7 +27,6 @@ $white: rgb(243, 243, 243);
 body {
   background: $white;
   font-family: $font-1;
-  // @include verticalCenter;
 }
 li {
   list-style-type: none;

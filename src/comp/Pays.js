@@ -7,8 +7,8 @@ const Pays = () => {
     const [data, setData] = useState([]);
     const [nbPays, setNbPays] = useState(1);
     const [rangeValue, setRangeValue] = useState(1);
-    const [radioSelectionne, setRadioSelectionne] = useState("");
-    const populations = [25000000, 10000000, 1000000, 100000, 0];
+    const populations = [25_000_000, 10_000_000, 1_000_000, 100_000, 0];
+    const [continentSelectionne, setContinentSelectionne] = useState("");
     const continents = {
         "Africa": "Afrique",
         "America": "Amérique",
@@ -41,38 +41,42 @@ const Pays = () => {
                         id="range"
                         defaultValue={rangeValue}
                         onChange={(e) => setRangeValue(e.target.value)}
-                    />
+                        />
+                    {/* palliers */}
                 </li>
 
                 <br />
 
                 <li>
-                    <label htmlFor="continent">Continent</label>
+                    <label htmlFor="continent" className="continent">Continent</label>
                     <select 
                         name="continent" 
                         id="continent"
                         onChange={(choix) => {
-                            setRadioSelectionne(choix.target.value);
+                            setContinentSelectionne(choix.target.value);
                             updatePays();
                         }}
-                    >
+                        >
                         <option value="">Tous</option>
                         {Object.keys(continents).map((continent) => (
-                            <option value={continent} id={continent}>
+                            <option value={continent} id={continent} key={continent}>
                         {continents[continent]}
                         </option>
                     ))}
                     </select>
                 </li>
+
+                {<button className={(nbPays == 1)?"oneCountry":"allCountry"} onClick={() => setNbPays((nbPays == 1)?500:1)}>Tous les pays</button>}
+
             </ul>
+            
             {<button className="newCountry" onClick={() => updatePays()}>Nouveau Pays</button>}
-            {<button className={(nbPays == 1)?"oneCountry":"allCountry"} onClick={() => setNbPays((nbPays == 1)?500:1)}>Tous les pays</button>}
-            {/* {radioSelectionne && <button className="allCountry" onClick={() => setRadioSelectionne("")}>Tous les continents</button>} */}
+            {/* {<button className={(nbPays == 1)?"oneCountry":"allCountry"} onClick={() => setNbPays((nbPays == 1)?500:1)}>Difficulté ++</button>} */}
+            
             <ul>
                 {data
-                    .filter((pays) => pays.continents[0].includes(radioSelectionne) && (pays.population > populations[rangeValue - 1]))
-                    .sort((a, b) => Math.random() - 0.5)
-                    // .sort((a, b) => b.population - a.population)
+                    .filter((pays) => pays.continents[0].includes(continentSelectionne) && (pays.population > populations[rangeValue - 1]))
+                    .sort((a, b) => (nbPays==500)?(b.population - a.population):(Math.random() - 0.5))
                     .slice(0, nbPays)
                     .map((pays, index) => (
                         <Carte key={index} pays={pays} />
