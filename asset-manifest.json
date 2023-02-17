@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Quizz-Geographie/static/css/main.68569893.css",
+    "main.js": "/Quizz-Geographie/static/js/main.68c17677.js",
+    "static/media/JosefinSans-Medium.ttf": "/Quizz-Geographie/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
+    "index.html": "/Quizz-Geographie/index.html",
+    "main.68569893.css.map": "/Quizz-Geographie/static/css/main.68569893.css.map",
+    "main.68c17677.js.map": "/Quizz-Geographie/static/js/main.68c17677.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68569893.css",
+    "static/js/main.68c17677.js"
+  ]
+}
