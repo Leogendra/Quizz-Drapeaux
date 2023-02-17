@@ -1,4 +1,7 @@
-Application React pour s'entrainer avec les drapeaux
-V1 : Drapeaux -> Pays/capitales
-    Tri par continent
-    Affichage de tous ou 1 drapeau
+#### Site pour s'entrainer en géographie
+https://Leogendra.github.io/Quizz-Geographie
+
+v1 :
+- Drapeaux -> Pays/capitales
+- Tri par continent
+- Affichage de tous ou 1 drapeau
