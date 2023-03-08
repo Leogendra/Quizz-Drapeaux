@@ -2,6 +2,6 @@
 https://Leogendra.github.io/Quizz-Geographie
 
 v1 :
-- Drapeaux -> Pays/capitales
-- Tri par continent
-- Affichage de tous ou 1 drapeau
+1. Drapeaux -> deviner Pays/capitales
+2. Tri par continent ; tri par population
+3. Affichage de un ou de tous les drapeau ; mode difficile (pays entre bornes de population)

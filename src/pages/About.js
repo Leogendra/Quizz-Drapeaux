@@ -7,11 +7,13 @@ const About = () => {
         <div>
             <Logo />
             <Navigation />
-            <h1>Y a rien ici</h1>
-            <br />
-            <p>Petit site juste pour tester réact</p>
-            <br />
-            <p>En vrai pas ouf</p>
+            <div className="aPropos">
+                <h1>Y a rien ici</h1>
+                <br />
+                <p>Petit site juste pour tester réact</p>
+                <br />
+                <p>En vrai pas ouf</p>
+            </div>
         </div>
     );
 };

@@ -10,6 +10,7 @@ const Pays = () => {
     const [rangeValue, setRangeValue] = useState(1);
     const populations = [25_000_000, 10_000_000, 1_000_000, 100_000, 0];
     const [continentSelectionne, setContinentSelectionne] = useState("");
+    const [onuCountry, setOnuCountry] = useState("");
     const continents = {
         "Africa": "Afrique",
         "America": "Amérique",
@@ -39,13 +40,18 @@ const Pays = () => {
             .then((res) => setData(res.data));
     }
 
-    function tailleDataFiltree(mode) {
-        if (mode == 1) {
-            return data.filter((pays) => pays.continents[0].includes(continentSelectionne) && (pays.population > populations[rangeValue - 1])).length;
+    function tailleDataFiltree() {
+        let altData = data.filter((pays) => pays.continents[0].includes(continentSelectionne) && pays.population > populations[rangeValue - 1]);
+        if (mode == 2) {
+            altData = altData.filter((pays) => (pays.population < populations[Math.abs(rangeValue - 2)])).length;
         }
-        else {
-            return data.filter((pays) => pays.continents[0].includes(continentSelectionne) && (pays.population > populations[rangeValue - 1]) && (pays.population < populations[Math.abs(rangeValue - 2)])).length;
+        if (onuCountry == "1") {
+            altData = altData.filter((pays) => pays.unMember == true);
+        } 
+        else if (onuCountry == "2") {
+            altData = altData.filter((pays) => pays.unMember == false);
         }
+        return altData.length;
     }
 
     return (
@@ -53,26 +59,42 @@ const Pays = () => {
             <ul className="radio-container">
                 <li>
                     <label htmlFor="continent" className="continent">Continent</label>
-                    <select 
-                        name="continent" 
+                    <select
+                        name="continent"
                         id="continent"
                         onChange={(choix) => {
                             setContinentSelectionne(choix.target.value);
                             updatePays();
                         }}
-                        >
+                    >
                         <option value="" key={0}>Tous</option>
                         {Object.keys(continents).map((continent) => (
                             <option value={continent} id={continent} key={continent}>
-                        {continents[continent]}
-                        </option>
-                    ))}
+                                {continents[continent]}
+                            </option>
+                        ))}
+                    </select>
+                </li>
+
+                <li>
+                    <label htmlFor="onu" className="continent">ONU</label>
+                    <select
+                        name="onu"
+                        id="onu"
+                        onChange={(choix) => {
+                            setOnuCountry(choix.target.value);
+                            updatePays();
+                        }}
+                    >
+                        <option value="0" key={0}>Tous</option>
+                        <option value="1" key={1}>ONU</option>
+                        <option value="2" key={2}>non ONU</option>
                     </select>
                 </li>
 
                 {/* Slider qui défini le niveau de difficulté, coupe les pays en 3 parties, ordonées par population */}
                 <li>
-                    <label htmlFor="range">Pop. {(mode==1)?"min":"entre"} : {(mode==1)?getPopulation(populations[rangeValue-1]):getPopulation(populations[Math.abs(rangeValue-2)])+"-"+getPopulation(populations[rangeValue-1])}</label>
+                    <label htmlFor="range">Pop. {(mode == 1) ? "min" : "entre"} : {(mode == 1) ? getPopulation(populations[rangeValue - 1]) : getPopulation(populations[Math.abs(rangeValue - 2)]) + "-" + getPopulation(populations[rangeValue - 1])}</label>
                     <input
                         type="range"
                         min="1"
@@ -80,38 +102,57 @@ const Pays = () => {
                         id="range"
                         defaultValue={rangeValue}
                         onChange={(e) => setRangeValue(e.target.value)}
-                        />
+                    />
                     {/* palliers */}
                 </li>
 
                 <li>
                     {/* Bouton qui permet de passer d'un pays à tous les pays */}
-                    {<button className={(nbPays==1)?"oneCountries":"allCountries"} onClick={() => setNbPays((nbPays==1)?300:1)}>Tous les pays ({tailleDataFiltree(mode)})</button>}
+                    {<button className={(nbPays == 1) ? "oneCountries" : "allCountries"} onClick={() => setNbPays((nbPays == 1) ? 300 : 1)}>Tous les pays ({tailleDataFiltree()})</button>}
                 </li>
 
                 <li>
                     {/* Bouton qui permet de passer du mode "population min" à "entre population" */}
-                    {<button className={(mode==1)?"modeEasy":"modeHard"} onClick={() => setMode((mode==1)?2:1)}>Mode difficile</button>}
+                    {<button className={(mode == 1) ? "modeEasy" : "modeHard"} onClick={() => setMode((mode == 1) ? 2 : 1)}>Mode intervale</button>}
                 </li>
 
             </ul>
-            
+
             {(nbPays == 1) && <button className="newCountry" onClick={() => updatePays()}>Nouveau Pays</button>}
             {/* {<button className={(nbPays == 1)?"oneCountry":"allCountry"} onClick={() => setNbPays((nbPays == 1)?300:1)}>Difficulté ++</button>} */}
-            
+
             <ul>
                 {data
-                    .filter((pays) => {if (mode == 1) {
-                                        return pays.continents[0].includes(continentSelectionne) && (pays.population > populations[rangeValue - 1]);
-                                    }
-                                    else {
-                                        return pays.continents[0].includes(continentSelectionne) && (pays.population > populations[rangeValue - 1]) && (pays.population < populations[Math.abs(rangeValue - 2)]);
-                                    }
-                                })
-                    .sort((a, b) => (nbPays==300)?(b.population - a.population):(Math.random() - 0.5))
+                    .filter((pays) => {
+                        let bool = false;
+                        if (pays.continents[0].includes(continentSelectionne)) {
+                            if (mode == 1) {
+                                bool = (pays.population > populations[rangeValue - 1]);
+                            }
+                            else {
+                                bool = (pays.population > populations[rangeValue - 1]) && (pays.population < populations[Math.abs(rangeValue - 2)]);
+                            }
+                            if (onuCountry == 1) {
+                                bool = bool && pays.unMember;
+                            }
+                            else if (onuCountry == 2) {
+                                bool = bool && !pays.unMember;
+                            }
+                        }
+                        return bool
+                    })
+                    .sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
                     .slice(0, nbPays)
                     .map((pays, index) => (
-                        <Carte key={index} pays={pays} />
+                        // on veut renvoyer que le nom du pays et la population en ne gardant que ces deux informations
+
+                        <Carte 
+                            key={index} 
+                            name={pays.translations.fra.common} 
+                            capital={pays.capital}
+                            population={pays.population}
+                            flag={pays.flags.svg}
+                        />
                     ))
                 }
             </ul>
