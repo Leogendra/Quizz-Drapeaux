@@ -1,5 +1,5 @@
 #### Site pour s'entrainer en géographie
-https://Leogendra.github.io/Quizz-Geographie
+https://drapeaux.gatienH.fr
 
 v1. :
 1. Drapeaux -> deviner Pays/capitales
