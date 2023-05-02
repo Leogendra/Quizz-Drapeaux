@@ -1,0 +1,89 @@
+.continents {
+    text-align: center;
+
+    .radio-container {
+        display: inline-flex; //ajout de cette ligne
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px 20px;
+        background: $color-3;
+        border-radius: 20px;
+        padding: 15px 10%;
+        color: $white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
+
+        button {
+            margin: 0;
+            padding: 2px 6px;
+            background-color: $white;
+            border: 2px solid;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+
+        .modeHard {
+            background: $color-2;
+            border-color: $color-2;
+
+            &:hover {
+                background: $white;
+            }
+        }
+
+        .modeEasy {
+            border-color: $color-2;
+
+            &:hover {
+                background: $color-2;
+            }
+        }
+    }
+
+    .continents-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border-radius: 10px;
+        padding: 20px;
+
+        button {
+            margin: 0 10px 20px;
+            padding: 4px 10px;
+            background: none;
+            border: 2px solid $color-4;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.2s;
+
+            &:hover {
+                background: $color-4;
+                color: $black;
+            }
+        }
+
+        .red {
+            border-color: $color-2;
+
+            &:hover {
+                background: $white;
+                color: $color-2;
+            }
+        }
+
+        .blue {
+            border: 2px solid $color-1;
+    
+            &:hover {
+                background: $color-1;
+                color: $white;
+            }
+        }
+    }
+}

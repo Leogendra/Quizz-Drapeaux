@@ -8,11 +8,9 @@ const About = () => {
             <Logo />
             <Navigation />
             <div className="aPropos">
-                <h1>Y a rien ici</h1>
+                <h1>Quizz Géographie</h1>
                 <br />
-                <p>Petit site juste pour tester réact</p>
-                <br />
-                <p>En vrai pas ouf</p>
+                <p>Premier site ReactJs pour apprendre les drapeaux, pays et capitales.</p>
             </div>
         </div>
     );

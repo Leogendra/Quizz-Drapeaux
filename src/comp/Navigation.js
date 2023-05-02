@@ -8,11 +8,11 @@ const Navigation = () => {
                     <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>Drapeaux</li>
                     </NavLink>
-                    <NavLink to="about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>À propos</li>
+                    <NavLink to="/continents" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                        <li>Cartes</li>
                     </NavLink>
-                    <NavLink to="/next" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>À venir</li>
+                    <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                        <li>À propos</li>
                     </NavLink>
                 </ul>
             </div>

@@ -25,11 +25,13 @@ const Pays = () => {
     }, []);
 
     function getPopulation(num) {
-        if (num >= 1000000) {
-            return (num / 1000000).toFixed(0) + "M";
-        } else if (num >= 1000) {
-            return (num / 1000).toFixed(0) + "K";
-        } else {
+        if (num >= 1_000_000) {
+            return (num / 1_000_000).toFixed(0) + "M";
+        }
+        else if (num >= 1_000) {
+            return (num / 1_000).toFixed(0) + "K";
+        }
+        else {
             return num;
         }
     };
@@ -43,11 +45,16 @@ const Pays = () => {
     function tailleDataFiltree() {
         let altData = data.filter((pays) => pays.continents[0].includes(continentSelectionne) && pays.population > populations[rangeValue - 1]);
         if (mode == 2) {
-            altData = altData.filter((pays) => (pays.population < populations[Math.abs(rangeValue - 2)])).length;
+            if (rangeValue > 1) {
+                altData = altData.filter((pays) => pays.population < populations[rangeValue - 2]);
+            } 
+            else {
+                altData = altData.filter((pays) => pays.population < 9_999_999_999);
+            }
         }
         if (onuCountry == "1") {
             altData = altData.filter((pays) => pays.unMember == true);
-        } 
+        }
         else if (onuCountry == "2") {
             altData = altData.filter((pays) => pays.unMember == false);
         }
@@ -92,9 +99,9 @@ const Pays = () => {
                     </select>
                 </li>
 
-                {/* Slider qui défini le niveau de difficulté, coupe les pays en 3 parties, ordonées par population */}
+                {/* Slider qui défini le niveau de difficulté, coupe les pays en 5 parties, ordonées par population */}
                 <li>
-                    <label htmlFor="range">Pop. {(mode == 1) ? "min" : "entre"} : {(mode == 1) ? getPopulation(populations[rangeValue - 1]) : getPopulation(populations[Math.abs(rangeValue - 2)]) + "-" + getPopulation(populations[rangeValue - 1])}</label>
+                    <label htmlFor="range">Pop. {(mode == 1) ? "min" : "entre"} : {(mode == 1) ? getPopulation(populations[rangeValue - 1]) : ((rangeValue > 1) ? getPopulation(populations[rangeValue - 2]) : "inf") + "-" + getPopulation(populations[rangeValue - 1])}</label>
                     <input
                         type="range"
                         min="1"
@@ -126,34 +133,32 @@ const Pays = () => {
                     .filter((pays) => {
                         let bool = false;
                         if (pays.continents[0].includes(continentSelectionne)) {
-                            if (mode == 1) {
-                                bool = (pays.population > populations[rangeValue - 1]);
+                            bool = (pays.population > populations[rangeValue - 1]);
+                            if (mode == 2) {
+                                bool = bool && (pays.population < ((rangeValue > 1) ? populations[rangeValue - 2] : 9_999_999_999));
                             }
-                            else {
-                                bool = (pays.population > populations[rangeValue - 1]) && (pays.population < populations[Math.abs(rangeValue - 2)]);
+                if (onuCountry == 1) {
+                    bool = bool && pays.unMember;
                             }
-                            if (onuCountry == 1) {
-                                bool = bool && pays.unMember;
-                            }
-                            else if (onuCountry == 2) {
-                                bool = bool && !pays.unMember;
+                else if (onuCountry == 2) {
+                    bool = bool && !pays.unMember;
                             }
                         }
-                        return bool
+                return bool
                     })
                     .sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
-                    .slice(0, nbPays)
+                .slice(0, nbPays)
                     .map((pays, index) => (
-                        // on veut renvoyer que le nom du pays et la population en ne gardant que ces deux informations
+                // on veut renvoyer que le nom du pays et la population en ne gardant que ces deux informations
 
-                        <Carte 
-                            key={index} 
-                            name={pays.translations.fra.common} 
-                            capital={pays.capital}
-                            population={pays.population}
-                            flag={pays.flags.svg}
-                        />
-                    ))
+                <Carte
+                    key={index}
+                    name={pays.translations.fra.common}
+                    capital={pays.capital}
+                    population={pays.population}
+                    flag={pays.flags.svg}
+                />
+                ))
                 }
             </ul>
         </div>
