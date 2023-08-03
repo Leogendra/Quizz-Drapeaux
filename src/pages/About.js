@@ -9,8 +9,15 @@ const About = () => {
             <Navigation />
             <div className="aPropos">
                 <h1>Quizz Géographie</h1>
-                <br />
-                <p>Premier site ReactJs pour apprendre les drapeaux, pays et capitales.</p>
+                <br/>
+                <p>Site ReactJs pour apprendre les drapeaux, pays et capitales.</p>
+                <br/>
+                <p>Possibilité de trier sur</p>
+                <ul>
+                    <li>- Continent</li>
+                    <li>- Nombre d'habitants</li>
+                    <li>- Appartenance aux Nations Unies</li>
+                </ul>
             </div>
         </div>
     );
