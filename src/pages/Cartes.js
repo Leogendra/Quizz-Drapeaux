@@ -51,6 +51,8 @@ const ContinentButtons = () => {
                 </li>
             </ul>
 
+            <h2>Cliquez sur un continent pour ouvrir la carte sur Seterra</h2>
+
             {/* Si mode difficile : continentsHard */}
             <div className='continents-div'>
                 {mode === 1 ? (
