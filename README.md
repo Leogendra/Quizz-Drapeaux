@@ -9,3 +9,4 @@ v1. :
 
 v2. :
 1. Liens vers des cartes pour placer les drapeaux (Settera)
+2. Ajout d'un compteur dans le mode "drapeau unique"

@@ -8,6 +8,10 @@ const Pays = () => {
     const [nbPays, setNbPays] = useState(1);
     const [mode, setMode] = useState(1);
     const [rangeValue, setRangeValue] = useState(1);
+
+    // Nouvel état pour l'index actuel et le compteur de drapeaux vus
+    const [currentIndex, setCurrentIndex] = useState(0);
+    
     const populations = [25_000_000, 10_000_000, 1_000_000, 100_000, 0];
     const [continentSelectionne, setContinentSelectionne] = useState("");
     const [onuCountry, setOnuCountry] = useState("");
@@ -39,7 +43,11 @@ const Pays = () => {
     function updatePays() {
         axios
             .get("https://restcountries.com/v3.1/all")
-            .then((res) => setData(res.data));
+            .then((res) => setData(
+                res.data
+                .sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
+                ));
+        setCurrentIndex(0);
     }
 
     function tailleDataFiltree() {
@@ -47,7 +55,7 @@ const Pays = () => {
         if (mode == 2) {
             if (rangeValue > 1) {
                 altData = altData.filter((pays) => pays.population < populations[rangeValue - 2]);
-            } 
+            }
             else {
                 altData = altData.filter((pays) => pays.population < 9_999_999_999);
             }
@@ -59,6 +67,13 @@ const Pays = () => {
             altData = altData.filter((pays) => pays.unMember == false);
         }
         return altData.length;
+    }
+
+    function nextCountry() {
+        setCurrentIndex(prevIndex => {
+            const newIndex = (prevIndex + 1) % tailleDataFiltree();
+            return newIndex;
+        });
     }
 
     return (
@@ -108,7 +123,10 @@ const Pays = () => {
                         max="5"
                         id="range"
                         defaultValue={rangeValue}
-                        onChange={(e) => setRangeValue(e.target.value)}
+                        onChange={(e) => {
+                            setRangeValue(e.target.value);
+                            updatePays();
+                        }}
                     />
                     {/* palliers */}
                 </li>
@@ -125,8 +143,10 @@ const Pays = () => {
 
             </ul>
 
-            {(nbPays == 1) && <button className="newCountry" onClick={() => updatePays()}>Nouveau Pays</button>}
-            {/* {<button className={(nbPays == 1)?"oneCountry":"allCountry"} onClick={() => setNbPays((nbPays == 1)?300:1)}>Difficulté ++</button>} */}
+            {(nbPays == 1) && <button className="red-button" onClick={() => nextCountry()}>Mélanger</button>}
+            {(nbPays == 1) && <button className="newCountry" onClick={() => nextCountry()}>Pays suivant</button>}
+            {(nbPays == 1) && (tailleDataFiltree()) && <label htmlFor="range">{currentIndex+1}/{tailleDataFiltree()}</label>}
+            
 
             <ul>
                 {data
@@ -137,28 +157,25 @@ const Pays = () => {
                             if (mode == 2) {
                                 bool = bool && (pays.population < ((rangeValue > 1) ? populations[rangeValue - 2] : 9_999_999_999));
                             }
-                if (onuCountry == 1) {
-                    bool = bool && pays.unMember;
+                            if (onuCountry == 1) {
+                                bool = bool && pays.unMember;
                             }
-                else if (onuCountry == 2) {
-                    bool = bool && !pays.unMember;
+                            else if (onuCountry == 2) {
+                                bool = bool && !pays.unMember;
                             }
                         }
-                return bool
+                        return bool
                     })
-                    .sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
-                .slice(0, nbPays)
+                    .slice(currentIndex, currentIndex + nbPays)
                     .map((pays, index) => (
-                // on veut renvoyer que le nom du pays et la population en ne gardant que ces deux informations
-
-                <Carte
-                    key={index}
-                    name={pays.translations.fra.common}
-                    capital={pays.capital}
-                    population={pays.population}
-                    flag={pays.flags.svg}
-                />
-                ))
+                        <Carte
+                            key={index}
+                            name={pays.translations.fra.common}
+                            capital={pays.capital}
+                            population={pays.population}
+                            flag={pays.flags.svg}
+                        />
+                    ))
                 }
             </ul>
         </div>
