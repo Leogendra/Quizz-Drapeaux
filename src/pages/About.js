@@ -18,6 +18,8 @@ const About = () => {
                     <li>- Nombre d'habitants</li>
                     <li>- Appartenance aux Nations Unies</li>
                 </ul>
+                <br/>
+                <p>Lien du projet : <a href="https://github.com/Leogendra/Quizz-Geographie" target="_blank" rel="noopener noreferrer">github.com/Leogendra/Quizz-Geographie</a></p>
             </div>
         </div>
     );
