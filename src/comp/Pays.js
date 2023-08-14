@@ -143,7 +143,7 @@ const Pays = () => {
 
             </ul>
 
-            {(nbPays == 1) && <button className="red-button" onClick={() => nextCountry()}>Mélanger</button>}
+            {(nbPays == 1) && <button className="red-button" onClick={() => updatePays()}>Mélanger</button>}
             {(nbPays == 1) && <button className="newCountry" onClick={() => nextCountry()}>Pays suivant</button>}
             {(nbPays == 1) && (tailleDataFiltree()) && <label htmlFor="range">{currentIndex+1}/{tailleDataFiltree()}</label>}
             
