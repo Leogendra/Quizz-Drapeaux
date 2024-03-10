@@ -1,0 +1,257 @@
+[
+    {
+        "nom": "Alabama",
+        "capitale": "Montgomery",
+        "ISO": "us-al"
+    },
+    {
+        "nom": "Alaska",
+        "capitale": "Juneau",
+        "ISO": "us-ak"
+    },
+    {
+        "nom": "Arizona",
+        "capitale": "Phoenix",
+        "ISO": "us-az"
+    },
+    {
+        "nom": "Arkansas",
+        "capitale": "Little Rock",
+        "ISO": "us-ar"
+    },
+    {
+        "nom": "Californie",
+        "capitale": "Sacramento",
+        "ISO": "us-ca"
+    },
+    {
+        "nom": "Caroline du Nord",
+        "capitale": "Raleigh",
+        "ISO": "us-nc"
+    },
+    {
+        "nom": "Caroline du Sud",
+        "capitale": "Columbia",
+        "ISO": "us-sc"
+    },
+    {
+        "nom": "Colorado",
+        "capitale": "Denver",
+        "ISO": "us-co"
+    },
+    {
+        "nom": "Connecticut",
+        "capitale": "Hartford",
+        "ISO": "us-ct"
+    },
+    {
+        "nom": "Dakota du Nord",
+        "capitale": "Bismarck",
+        "ISO": "us-nd"
+    },
+    {
+        "nom": "Dakota du Sud",
+        "capitale": "Pierre",
+        "ISO": "us-sd"
+    },
+    {
+        "nom": "Delaware",
+        "capitale": "Dover",
+        "ISO": "us-de"
+    },
+    {
+        "nom": "Floride",
+        "capitale": "Tallahassee",
+        "ISO": "us-fl"
+    },
+    {
+        "nom": "Géorgie",
+        "capitale": "Atlanta",
+        "ISO": "us-ga"
+    },
+    {
+        "nom": "Hawaï",
+        "capitale": "Honolulu",
+        "ISO": "us-hi"
+    },
+    {
+        "nom": "Idaho",
+        "capitale": "Boise",
+        "ISO": "us-id"
+    },
+    {
+        "nom": "Illinois",
+        "capitale": "Springfield",
+        "ISO": "us-il"
+    },
+    {
+        "nom": "Indiana",
+        "capitale": "Indianapolis",
+        "ISO": "us-in"
+    },
+    {
+        "nom": "Iowa",
+        "capitale": "Des Moines",
+        "ISO": "us-ia"
+    },
+    {
+        "nom": "Kansas",
+        "capitale": "Topeka",
+        "ISO": "us-ks"
+    },
+    {
+        "nom": "Kentucky",
+        "capitale": "Frankfort",
+        "ISO": "us-ky"
+    },
+    {
+        "nom": "Louisiane",
+        "capitale": "Baton Rouge",
+        "ISO": "us-la"
+    },
+    {
+        "nom": "Maine",
+        "capitale": "Augusta",
+        "ISO": "us-me"
+    },
+    {
+        "nom": "Maryland",
+        "capitale": "Annapolis",
+        "ISO": "us-md"
+    },
+    {
+        "nom": "Massachusetts",
+        "capitale": "Boston",
+        "ISO": "us-ma"
+    },
+    {
+        "nom": "Michigan",
+        "capitale": "Lansing",
+        "ISO": "us-mi"
+    },
+    {
+        "nom": "Minnesota",
+        "capitale": "Saint Paul",
+        "ISO": "us-mn"
+    },
+    {
+        "nom": "Mississippi",
+        "capitale": "Jackson",
+        "ISO": "us-ms"
+    },
+    {
+        "nom": "Missouri",
+        "capitale": "Jefferson City",
+        "ISO": "us-mo"
+    },
+    {
+        "nom": "Montana",
+        "capitale": "Helena",
+        "ISO": "us-mt"
+    },
+    {
+        "nom": "Nebraska",
+        "capitale": "Lincoln",
+        "ISO": "us-ne"
+    },
+    {
+        "nom": "Nevada",
+        "capitale": "Carson City",
+        "ISO": "us-nv"
+    },
+    {
+        "nom": "New Hampshire",
+        "capitale": "Concord",
+        "ISO": "us-nh"
+    },
+    {
+        "nom": "New Jersey",
+        "capitale": "Trenton",
+        "ISO": "us-nj"
+    },
+    {
+        "nom": "New York",
+        "capitale": "Albany",
+        "ISO": "us-ny"
+    },
+    {
+        "nom": "Nouveau-Mexique",
+        "capitale": "Santa Fe",
+        "ISO": "us-nm"
+    },
+    {
+        "nom": "Ohio",
+        "capitale": "Columbus",
+        "ISO": "us-oh"
+    },
+    {
+        "nom": "Oklahoma",
+        "capitale": "Oklahoma City",
+        "ISO": "us-ok"
+    },
+    {
+        "nom": "Oregon",
+        "capitale": "Salem",
+        "ISO": "us-or"
+    },
+    {
+        "nom": "Pennsylvanie",
+        "capitale": "Harrisburg",
+        "ISO": "us-pa"
+    },
+    {
+        "nom": "Rhode Island",
+        "capitale": "Providence",
+        "ISO": "us-ri"
+    },
+    {
+        "nom": "Tennessee",
+        "capitale": "Nashville",
+        "ISO": "us-tn"
+    },
+    {
+        "nom": "Texas",
+        "capitale": "Austin",
+        "ISO": "us-tx"
+    },
+    {
+        "nom": "Utah",
+        "capitale": "Salt Lake City",
+        "ISO": "us-ut"
+    },
+    {
+        "nom": "Vermont",
+        "capitale": "Montpelier",
+        "ISO": "us-vt"
+    },
+    {
+        "nom": "Virginie",
+        "capitale": "Richmond",
+        "ISO": "us-va"
+    },
+    {
+        "nom": "Virginie-Occidentale",
+        "capitale": "Charleston",
+        "ISO": "us-wv"
+    },
+    {
+        "nom": "Washington",
+        "capitale": "Olympia",
+        "ISO": "us-wa"
+    },
+    {
+        "nom": "Wisconsin",
+        "capitale": "Madison",
+        "ISO": "us-wi"
+    },
+    {
+        "nom": "Virginie-Occidentale",
+        "capitale": "Charleston",
+        "ISO": "us-wv"
+    },
+    {
+        "nom": "Wyoming",
+        "capitale": "Cheyenne",
+        "ISO": "us-wy"
+    }
+]
