@@ -15,7 +15,8 @@ const Etat = () => {
     function updateEtats() {
         const sortedData = (mode === 1) ? 
             etats_json.slice().sort(() => Math.random() - 0.5) : 
-            etats_json.slice().sort((a, b) => a.nom.localeCompare(b.nom));
+            // etats_json.slice().sort((a, b) => a.nom.localeCompare(b.nom));
+            etats_json.slice().sort((a, b) => b.population - a.population);
         setEtatsData(sortedData);
         setCurrentIndex(0);
     }
