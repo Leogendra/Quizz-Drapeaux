@@ -8,16 +8,7 @@ const France = () => {
         <div>
             <Logo />
             <Navigation />
-            {/* <Departements /> */}
-            <div className="aPropos">
-                <h1>À venir :</h1>
-                <ul>
-                    <li>- Départements francais (nom et numéro)</li>
-                    <li>- Tri par région</li>
-                    <li>- Drapeaux culturels</li>
-                </ul>
-                <br/>
-            </div>
+            <Departements />
         </div>
     );
 };
