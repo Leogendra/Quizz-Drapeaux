@@ -12,18 +12,32 @@ const continents = [
     { name: 'Caraibes', link: 'https://www.geoguessr.com/seterra/fr/vgp/3342', hard: 'https://www.geoguessr.com/seterra/fr/vgp/3355?c=8RZ93' },
     { name: 'Monde', link: 'https://www.geoguessr.com/seterra/fr/vgp/3356', hard: 'https://www.geoguessr.com/seterra/fr/vgp/3355' }
 ];
+const states = [
+    { name: 'États du Ouest', link: 'https://www.geoguessr.com/fr/vgp/3139'},
+    { name: 'États du Midwest', link: 'https://www.geoguessr.com/fr/vgp/3138'},
+    { name: 'États du Nord-Est', link: 'https://www.geoguessr.com/fr/vgp/3141'},
+    { name: 'États du Sud', link: 'https://www.geoguessr.com/fr/vgp/3140'},
+    { name: 'USA', link: 'https://www.geoguessr.com/fr/vgp/3003' }
+];
 
 const ContinentButtons = () => {
 
     const [selectedContinent, setSelectedContinent] = useState(null);
+    const [selectedState, setSelectedState] = useState(null);
     const [mode, setMode] = useState(1);
 
-    const handleRandomClick = () => {
+    const handleRandomClickContinents = () => {
         const randomIndex = Math.floor(Math.random() * continents.length);
         const selected = { ...continents[randomIndex] };
 
         if (mode === 2 && selected.hard) {selected.link = selected.hard;}
         setSelectedContinent(selected);
+    }
+
+    const handleRandomClickStates = () => {
+        const randomIndex = Math.floor(Math.random() * states.length);
+        const selected = { ...states[randomIndex] };
+        setSelectedState(selected);
     }
     
 
@@ -55,9 +69,29 @@ const ContinentButtons = () => {
                     </a>
                 ))}
                 <a href={selectedContinent?.link} target="_blank" rel="noopener noreferrer">
-                    <button className="blue" onClick={handleRandomClick}>Continent aléatoire</button>
+                    <button className="blue" onClick={handleRandomClickContinents}>Continent aléatoire</button>
                 </a>
             </div>
+
+        <h2>Cliquez sur un Etat pour ouvrir la carte sur Seterra</h2>
+
+        <div className='continents-div'>
+            {states.map((state) => (
+                <a 
+                    key={state.name} 
+                    href={state.link }
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <button className=''>
+                        {state.name}
+                    </button>
+                </a>
+            ))}
+            <a href={selectedState?.link} target="_blank" rel="noopener noreferrer">
+                <button className="blue" onClick={handleRandomClickStates}>États aléatoire</button>
+            </a>
+        </div>
 
         </div>
     );
