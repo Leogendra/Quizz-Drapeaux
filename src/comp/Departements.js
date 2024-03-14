@@ -72,15 +72,15 @@ const Departements = () => {
 
             <ul>
                 {deptData
-                    .filter((departement) => { departement.codeRegion.includes(regionSelectionne) })
+                    .filter((departement) => { return departement.codeRegion.includes(regionSelectionne) })
                     .slice(currentIndex, currentIndex + (mode===1?1:300))
                     .map((departement, index) => (
                         <Carte
                             key={index}
                             name={departement.nom}
                             capital={departement.code}
-                            // population={pays.population}
-                            flag={default_flag}
+                            // population={0}
+                            flag={"https://flagcdn.com/fr.svg"}
                         />
                     ))
                 }
