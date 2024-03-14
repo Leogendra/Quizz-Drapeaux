@@ -33,7 +33,7 @@ const Etat = () => {
 
     return (
         <div className="countries">
-            <ul className="radio-container-short">
+            <ul className="radio-container">
                 <li>
                     {<button className={(mode === 1) ? "oneCountries" : "allCountries"} onClick={() => {setMode((mode === 1) ? 2 : 1);}}>Tous les États</button>}
                 </li>

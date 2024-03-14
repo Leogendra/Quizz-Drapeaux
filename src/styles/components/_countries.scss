@@ -1,7 +1,7 @@
 .countries {
     text-align: center;
 
-    .radio-container, .radio-container-short {
+    .radio-container {
         justify-content: space-around;
         align-items: center;
         margin: 0px 10px 20px;
@@ -76,16 +76,6 @@
         li {
             margin: 10px 5px 10px;
         }
-    }
-
-    .radio-container-short {
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 40%;
-        margin: 0 auto 20px;
     }
 
     input[type="text"] {
