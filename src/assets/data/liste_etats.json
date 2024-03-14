@@ -2,251 +2,301 @@
     {
         "nom": "Alabama",
         "capitale": "Montgomery",
+        "population": 4997675,
         "ISO": "us-al"
     },
     {
         "nom": "Alaska",
         "capitale": "Juneau",
+        "population": 735951,
         "ISO": "us-ak"
     },
     {
         "nom": "Arizona",
         "capitale": "Phoenix",
+        "population": 7079203,
         "ISO": "us-az"
     },
     {
         "nom": "Arkansas",
         "capitale": "Little Rock",
+        "population": 3006309,
         "ISO": "us-ar"
     },
     {
         "nom": "Californie",
         "capitale": "Sacramento",
+        "population": 39455353,
         "ISO": "us-ca"
     },
     {
         "nom": "Caroline du Nord",
         "capitale": "Raleigh",
+        "population": 10367022,
         "ISO": "us-nc"
     },
     {
         "nom": "Caroline du Sud",
         "capitale": "Columbia",
+        "population": 5078903,
         "ISO": "us-sc"
     },
     {
         "nom": "Colorado",
         "capitale": "Denver",
+        "population": 5723176,
         "ISO": "us-co"
     },
     {
         "nom": "Connecticut",
         "capitale": "Hartford",
+        "population": 3605330,
         "ISO": "us-ct"
     },
     {
         "nom": "Dakota du Nord",
         "capitale": "Bismarck",
+        "population": 773344,
         "ISO": "us-nd"
     },
     {
         "nom": "Dakota du Sud",
         "capitale": "Pierre",
+        "population": 881785,
         "ISO": "us-sd"
     },
     {
         "nom": "Delaware",
         "capitale": "Dover",
+        "population": 981892,
         "ISO": "us-de"
     },
     {
         "nom": "Floride",
         "capitale": "Tallahassee",
+        "population": 21339762,
         "ISO": "us-fl"
     },
     {
         "nom": "Géorgie",
         "capitale": "Atlanta",
+        "population": 10625615,
         "ISO": "us-ga"
     },
     {
         "nom": "Hawaï",
         "capitale": "Honolulu",
+        "population": 1453498,
         "ISO": "us-hi"
     },
     {
         "nom": "Idaho",
         "capitale": "Boise",
+        "population": 1811617,
         "ISO": "us-id"
     },
     {
         "nom": "Illinois",
         "capitale": "Springfield",
+        "population": 12821813,
         "ISO": "us-il"
     },
     {
         "nom": "Indiana",
         "capitale": "Indianapolis",
+        "population": 6751340,
         "ISO": "us-in"
     },
     {
         "nom": "Iowa",
         "capitale": "Des Moines",
+        "population": 3179090,
         "ISO": "us-ia"
     },
     {
         "nom": "Kansas",
         "capitale": "Topeka",
+        "population": 2932099,
         "ISO": "us-ks"
     },
     {
         "nom": "Kentucky",
         "capitale": "Frankfort",
+        "population": 4494141,
         "ISO": "us-ky"
     },
     {
         "nom": "Louisiane",
         "capitale": "Baton Rouge",
+        "population": 4657305,
         "ISO": "us-la"
     },
     {
         "nom": "Maine",
         "capitale": "Augusta",
+        "population": 1357046,
         "ISO": "us-me"
     },
     {
         "nom": "Maryland",
         "capitale": "Annapolis",
+        "population": 6148545,
         "ISO": "us-md"
     },
     {
         "nom": "Massachusetts",
         "capitale": "Boston",
+        "population": 6991852,
         "ISO": "us-ma"
     },
     {
         "nom": "Michigan",
         "capitale": "Lansing",
+        "population": 10062512,
         "ISO": "us-mi"
     },
     {
         "nom": "Minnesota",
         "capitale": "Saint Paul",
+        "population": 5670472,
         "ISO": "us-mn"
     },
     {
         "nom": "Mississippi",
         "capitale": "Jackson",
+        "population": 2967023,
         "ISO": "us-ms"
     },
     {
         "nom": "Missouri",
         "capitale": "Jefferson City",
+        "population": 6141534,
         "ISO": "us-mo"
     },
     {
         "nom": "Montana",
         "capitale": "Helena",
+        "population": 1077978,
         "ISO": "us-mt"
     },
     {
         "nom": "Nebraska",
         "capitale": "Lincoln",
+        "population": 1951480,
         "ISO": "us-ne"
     },
     {
         "nom": "Nevada",
         "capitale": "Carson City",
+        "population": 3059238,
         "ISO": "us-nv"
     },
     {
         "nom": "New Hampshire",
         "capitale": "Concord",
+        "population": 1372175,
         "ISO": "us-nh"
     },
     {
         "nom": "New Jersey",
         "capitale": "Trenton",
+        "population": 9234024,
         "ISO": "us-nj"
     },
     {
         "nom": "New York",
         "capitale": "Albany",
+        "population": 20114745,
         "ISO": "us-ny"
     },
     {
         "nom": "Nouveau-Mexique",
         "capitale": "Santa Fe",
+        "population": 2109366,
         "ISO": "us-nm"
     },
     {
         "nom": "Ohio",
         "capitale": "Columbus",
+        "population": 11769923,
         "ISO": "us-oh"
     },
     {
         "nom": "Oklahoma",
         "capitale": "Oklahoma City",
+        "population": 3948136,
         "ISO": "us-ok"
     },
     {
         "nom": "Oregon",
         "capitale": "Salem",
+        "population": 4207177,
         "ISO": "us-or"
     },
     {
         "nom": "Pennsylvanie",
         "capitale": "Harrisburg",
+        "population": 12970650,
         "ISO": "us-pa"
     },
     {
         "nom": "Rhode Island",
         "capitale": "Providence",
+        "population": 1091949,
         "ISO": "us-ri"
     },
     {
         "nom": "Tennessee",
         "capitale": "Nashville",
+        "population": 6859497,
         "ISO": "us-tn"
     },
     {
         "nom": "Texas",
         "capitale": "Austin",
+        "population": 28862581,
         "ISO": "us-tx"
     },
     {
         "nom": "Utah",
         "capitale": "Salt Lake City",
+        "population": 3231370,
         "ISO": "us-ut"
     },
     {
         "nom": "Vermont",
         "capitale": "Montpelier",
+        "population": 641637,
         "ISO": "us-vt"
     },
     {
         "nom": "Virginie",
         "capitale": "Richmond",
+        "population": 8582479,
         "ISO": "us-va"
     },
     {
         "nom": "Virginie-Occidentale",
         "capitale": "Charleston",
+        "population": 1801049,
         "ISO": "us-wv"
     },
     {
         "nom": "Washington",
         "capitale": "Olympia",
+        "population": 7617364,
         "ISO": "us-wa"
     },
     {
         "nom": "Wisconsin",
         "capitale": "Madison",
+        "population": 5871661,
         "ISO": "us-wi"
     },
     {
         "nom": "Wyoming",
         "capitale": "Cheyenne",
+        "population": 576641,
         "ISO": "us-wy"
     }
 ]

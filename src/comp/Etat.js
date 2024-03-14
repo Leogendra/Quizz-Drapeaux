@@ -52,6 +52,7 @@ const Etat = () => {
                             key={index}
                             name={etat.nom}
                             capital={etat.capitale}
+                            population={etat.population}
                             flag={`https://flagcdn.com/${etat.ISO}.svg`}
                         />
                     ))
