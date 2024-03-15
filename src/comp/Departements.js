@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import Carte from './Carte';
 import departements_json from '../assets/data/departements.json';
 import regions_json from '../assets/data/regions.json';
-import default_flag from '../assets/data/flag.png';
 
 const Departements = () => {
     const [deptData, setDeptData] = useState([]);
