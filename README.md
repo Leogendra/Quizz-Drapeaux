@@ -20,6 +20,10 @@ v4. :
 2. Tri par région
 3. Drapeaux culturels des départements
 
+v4.1 :
+1. Ajout des cartes Seterra pour les États des États-Unis
+2. Ajout des cartes Seterra pour les régions et départements Français
+
 APIs utilisées :
 - https://restcountries.com/v3.1/all
 - https://flagpedia.net/download/api
