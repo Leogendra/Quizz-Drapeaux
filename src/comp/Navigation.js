@@ -11,11 +11,11 @@ const Navigation = () => {
                     <NavLink to="/etats" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>États U.S.A</li>
                     </NavLink>
-                    <NavLink to="/cartes" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>Cartes</li>
-                    </NavLink>
                     <NavLink to="/france" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>France</li>
+                    </NavLink>
+                    <NavLink to="/cartes" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                        <li>Cartes</li>
                     </NavLink>
                     <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>À propos</li>

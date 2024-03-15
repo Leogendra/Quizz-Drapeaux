@@ -79,7 +79,7 @@ const Departements = () => {
                             name={departement.nom}
                             capital={departement.code}
                             population={departement.population}
-                            flag={"https://flagcdn.com/fr.svg"}
+                            flag={`https://upload.wikimedia.org/wikipedia/commons/${departement.drapeau}.svg`}
                         />
                     ))
                 }

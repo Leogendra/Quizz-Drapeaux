@@ -3,618 +3,707 @@
         "nom": "Ain",
         "code": "01",
         "codeRegion": "84",
-        "population": "657856"
+        "population": "657856",
+        "drapeau": "1/18/Flag_of_Ain"
     },
     {
         "nom": "Aisne",
         "code": "02",
         "codeRegion": "32",
-        "population": "529374"
+        "population": "529374",
+        "drapeau": "1/17/Drapeau_fr_d%C3%A9partement_Aisne"
     },
     {
         "nom": "Allier",
         "code": "03",
         "codeRegion": "84",
-        "population": "335628"
+        "population": "335628",
+        "drapeau": "e/e5/Drapeau_fr_d%C3%A9partement_Allier"
     },
     {
         "nom": "Alpes-de-Haute-Provence",
         "code": "04",
         "codeRegion": "93",
-        "population": "165451"
+        "population": "165451",
+        "drapeau": "b/bb/Drapeau_fr_d%C3%A9partement_Alpes-de-Haute-Provence"
     },
     {
         "nom": "Hautes-Alpes",
         "code": "05",
         "codeRegion": "93",
-        "population": "140605"
+        "population": "140605",
+        "drapeau": "0/05/Flag_of_Hautes-Alpes"
     },
     {
         "nom": "Alpes-Maritimes",
         "code": "06",
         "codeRegion": "93",
-        "population": "1097410"
+        "population": "1097410",
+        "drapeau": "a/ae/Flag_of_the_County_of_Nice"
     },
     {
         "nom": "Ardèche",
         "code": "07",
         "codeRegion": "84",
-        "population": "329325"
+        "population": "329325",
+        "drapeau": "9/99/Drapeau_fr_d%C3%A9partement_Ard%C3%A8che"
     },
     {
         "nom": "Ardennes",
         "code": "08",
         "codeRegion": "44",
-        "population": "269701"
+        "population": "269701",
+        "drapeau": "4/45/Proposition_de_drapeau_des_Ardennes"
     },
     {
         "nom": "Ariège",
         "code": "09",
         "codeRegion": "76",
-        "population": "153954"
+        "population": "153954",
+        "drapeau": "0/05/Proposition_de_drapeau_pour_le_d%C3%A9partement_de_l%27Ari%C3%A8ge"
     },
     {
         "nom": "Aube",
         "code": "10",
         "codeRegion": "44",
-        "population": "311435"
+        "population": "311435",
+        "drapeau": "e/ef/Drapeau_fr_d%C3%A9partement_Aube"
     },
     {
         "nom": "Aude",
         "code": "11",
         "codeRegion": "76",
-        "population": "375217"
+        "population": "375217",
+        "drapeau": "b/b4/Drapeau_non-offiicel_fr_d%C3%A9partement_Aude"
     },
     {
         "nom": "Aveyron",
         "code": "12",
         "codeRegion": "76",
-        "population": "279554"
+        "population": "279554",
+        "drapeau": "4/46/Flag_of_Rouergue"
     },
     {
         "nom": "Bouches-du-Rhône",
         "code": "13",
         "codeRegion": "93",
-        "population": "2048070"
+        "population": "2048070",
+        "drapeau": "7/73/Proposition_de_drapeau_fr_d%C3%A9partement_Bouches-du-Rh%C3%B4ne"
     },
     {
         "nom": "Calvados",
         "code": "14",
         "codeRegion": "28",
-        "population": "697547"
+        "population": "697547",
+        "drapeau": "9/9d/Flag_of_Calvados"
     },
     {
         "nom": "Cantal",
         "code": "15",
         "codeRegion": "84",
-        "population": "144379"
+        "population": "144379",
+        "drapeau": "b/b6/Drapeau_fr_d%C3%A9partement_Cantal"
     },
     {
         "nom": "Charente",
         "code": "16",
         "codeRegion": "75",
-        "population": "351718"
+        "population": "351718",
+        "drapeau": "1/11/Flag_of_Charente"
     },
     {
         "nom": "Charente-Maritime",
         "code": "17",
         "codeRegion": "75",
-        "population": "655709"
+        "population": "655709",
+        "drapeau": "0/0c/CharenteMaritimeFlag"
     },
     {
         "nom": "Cher",
         "code": "18",
         "codeRegion": "24",
-        "population": "300933"
+        "population": "300933",
+        "drapeau": "e/ed/Drapeau_fr_d%C3%A9partement_Cher"
     },
     {
         "nom": "Corrèze",
         "code": "19",
         "codeRegion": "75",
-        "population": "239190"
+        "population": "239190",
+        "drapeau": "3/3e/Drapeau_d%C3%A9partement_fr_Corr%C3%A8ze"
     },
     {
         "nom": "Corse-du-Sud",
         "code": "2A",
         "codeRegion": "01",
-        "population": "160814"
+        "population": "160814",
+        "drapeau": "7/7c/Flag_of_Corsica"
     },
     {
         "nom": "Haute-Corse",
         "code": "2B",
         "codeRegion": "01",
-        "population": "182887"
+        "population": "182887",
+        "drapeau": "7/7c/Flag_of_Corsica"
     },
     {
         "nom": "Côte-d'Or",
         "code": "21",
         "codeRegion": "27",
-        "population": "535078"
+        "population": "535078",
+        "drapeau": "7/71/Drapeau_non-officiel_fr_d%C3%A9partement_C%C3%B4te-d%27Or"
     },
     {
         "nom": "Côtes-d'Armor",
         "code": "22",
         "codeRegion": "53",
-        "population": "603640"
+        "population": "603640",
+        "drapeau": "3/32/Drapeau_fr_d%C3%A9partement_C%C3%B4tes-d%27Armor"
     },
     {
         "nom": "Creuse",
         "code": "23",
         "codeRegion": "75",
-        "population": "115995"
+        "population": "115995",
+        "drapeau": "1/1a/Drapeau_fr_d%C3%A9partement_Creuse"
     },
     {
         "nom": "Dordogne",
         "code": "24",
         "codeRegion": "75",
-        "population": "412807"
+        "population": "412807",
+        "drapeau": "e/e6/Drapeau_fr_d%C3%A9partement_Dordogne"
     },
     {
         "nom": "Doubs",
         "code": "25",
         "codeRegion": "27",
-        "population": "545209"
+        "population": "545209",
+        "drapeau": "9/9a/Proposed_flag_of_Doubs"
     },
     {
         "nom": "Drôme",
         "code": "26",
         "codeRegion": "84",
-        "population": "517709"
+        "population": "517709",
+        "drapeau": "5/50/Drapeau_d%C3%A9partement_fr_Dr%C3%B4me"
     },
     {
         "nom": "Eure",
         "code": "27",
         "codeRegion": "28",
-        "population": "599668"
+        "population": "599668",
+        "drapeau": "b/b5/Proposed_flag_of_Eure"
     },
     {
         "nom": "Eure-et-Loir",
         "code": "28",
         "codeRegion": "24",
-        "population": "431443"
+        "population": "431443",
+        "drapeau": "7/7d/Flag_of_Eure-et-Loir"
     },
     {
         "nom": "Finistère",
         "code": "29",
         "codeRegion": "53",
-        "population": "917179"
-    },
-    {
-        "nom": "Corse-du-Sud",
-        "code": "2A",
-        "codeRegion": "01",
-        "population": "160814"
-    },
-    {
-        "nom": "Haute-Corse",
-        "code": "2B",
-        "codeRegion": "01",
-        "population": "182887"
+        "population": "917179",
+        "drapeau": "a/af/Drapeau_Finist%C3%A8re"
     },
     {
         "nom": "Gard",
         "code": "30",
         "codeRegion": "76",
-        "population": "751457"
+        "population": "751457",
+        "drapeau": "6/64/Drapeau_non-officiel_fr_d%C3%A9partement_Gard"
     },
     {
         "nom": "Haute-Garonne",
         "code": "31",
         "codeRegion": "76",
-        "population": "1415757"
+        "population": "1415757",
+        "drapeau": "a/af/Drapeau_non-officiel_fr_d%C3%A9partement_Haute-Garonne"
     },
     {
         "nom": "Gers",
         "code": "32",
         "codeRegion": "76",
-        "population": "191819"
+        "population": "191819",
+        "drapeau": "5/5d/Flag_of_Gers"
     },
     {
         "nom": "Gironde",
         "code": "33",
         "codeRegion": "75",
-        "population": "1636391"
+        "population": "1636391",
+        "drapeau": "e/ed/Flag_of_Gironde"
     },
     {
         "nom": "Hérault",
         "code": "34",
         "codeRegion": "76",
-        "population": "1188973"
+        "population": "1188973",
+        "drapeau": "4/4c/Drapeau_non-officiel_fr_d%C3%A9partement_H%C3%A9rault"
     },
     {
         "nom": "Ille-et-Vilaine",
         "code": "35",
         "codeRegion": "53",
-        "population": "1088855"
+        "population": "1088855",
+        "drapeau": "e/e0/Drapeau_non-officiel_fr_d%C3%A9partement_Ille-et-Vilaine"
     },
     {
         "nom": "Indre",
         "code": "36",
         "codeRegion": "24",
-        "population": "218707"
+        "population": "218707",
+        "drapeau": "1/18/Drapeau_d%C3%A9partement_fr_Indre"
     },
     {
         "nom": "Indre-et-Loire",
         "code": "37",
         "codeRegion": "24",
-        "population": "612119"
+        "population": "612119",
+        "drapeau": "4/46/Drapeau_non-officiel_fr_d%C3%A9partement_Indre-et-Loire"
     },
     {
         "nom": "Isère",
         "code": "38",
         "codeRegion": "84",
-        "population": "1277513"
+        "population": "1277513",
+        "drapeau": "4/4c/Drapeau_non-officiel_d%C3%A9partement_fr_Is%C3%A8re"
     },
     {
         "nom": "Jura",
         "code": "39",
         "codeRegion": "27",
-        "population": "258798"
+        "population": "258798",
+        "drapeau": "2/25/Flag_of_Jura_%28department%29"
     },
     {
         "nom": "Landes",
         "code": "40",
         "codeRegion": "75",
-        "population": "418122"
+        "population": "418122",
+        "drapeau": "e/ee/Drapeau_fr_d%C3%A9partement_Landes"
     },
     {
         "nom": "Loir-et-Cher",
         "code": "41",
         "codeRegion": "24",
-        "population": "329357"
+        "population": "329357",
+        "drapeau": "c/c7/Drapeau_fr_d%C3%A9partement_Loir-et-Cher"
     },
     {
         "nom": "Loire",
         "code": "42",
         "codeRegion": "84",
-        "population": "768508"
+        "population": "768508",
+        "drapeau": "9/93/Drapeau_fr_d%C3%A9partement_Loire"
     },
     {
         "nom": "Haute-Loire",
         "code": "43",
         "codeRegion": "84",
-        "population": "227489"
+        "population": "227489",
+        "drapeau": "6/6c/Drapeau_d%C3%A9partement_fr_Haute-Loire"
     },
     {
         "nom": "Loire-Atlantique",
         "code": "44",
         "codeRegion": "52",
-        "population": "1445171"
+        "population": "1445171",
+        "drapeau": "d/d3/Drapeau_fr_d%C3%A9partement_Loire-Atlantique"
     },
     {
         "nom": "Loiret",
         "code": "45",
         "codeRegion": "24",
-        "population": "682304"
+        "population": "682304",
+        "drapeau": "b/b1/Drapeau_fr_d%C3%A9partement_Loiret"
     },
     {
         "nom": "Lot",
         "code": "46",
         "codeRegion": "76",
-        "population": "174670"
+        "population": "174670",
+        "drapeau": "d/de/Unofficial_Flag_of_Lot"
     },
     {
         "nom": "Lot-et-Garonne",
         "code": "47",
         "codeRegion": "75",
-        "population": "330844"
+        "population": "330844",
+        "drapeau": "3/30/Drapeau_fr_d%C3%A9partement_Lot-et-Garonne"
     },
     {
         "nom": "Lozère",
         "code": "48",
         "codeRegion": "76",
-        "population": "76633"
+        "population": "76633",
+        "drapeau": "8/8b/Drapeau_non-officiel_fr_d%C3%A9partement_Loz%C3%A8re"
     },
     {
         "nom": "Maine-et-Loire",
         "code": "49",
         "codeRegion": "52",
-        "population": "820713"
+        "population": "820713",
+        "drapeau": "a/ad/Flag_of_Anjou"
     },
     {
         "nom": "Manche",
         "code": "50",
         "codeRegion": "28",
-        "population": "495093"
+        "population": "495093",
+        "drapeau": "1/16/Drapeau_non-officiel_fr_d%C3%A9partement_Manche"
     },
     {
         "nom": "Marne",
         "code": "51",
         "codeRegion": "44",
-        "population": "566659"
+        "population": "566659",
+        "drapeau": "d/d2/Drapeau_fr_d%C3%A9partement_Marne"
     },
     {
         "nom": "Haute-Marne",
         "code": "52",
         "codeRegion": "44",
-        "population": "171798"
+        "population": "171798",
+        "drapeau": "6/68/Drapeau_fr_d%C3%A9partement_Haute-Marne"
     },
     {
         "nom": "Mayenne",
         "code": "53",
         "codeRegion": "52",
-        "population": "306538"
+        "population": "306538",
+        "drapeau": "2/23/Drapeau_fr_d%C3%A9partement_Mayenne"
     },
     {
         "nom": "Meurthe-et-Moselle",
         "code": "54",
         "codeRegion": "44",
-        "population": "732590"
+        "population": "732590",
+        "drapeau": "b/b0/Drapeau_fr_d%C3%A9partement_Meurthe-et-Moselle"
     },
     {
         "nom": "Meuse",
         "code": "55",
         "codeRegion": "44",
-        "population": "183001"
+        "population": "183001",
+        "drapeau": "2/27/Drapeau_fr_d%C3%A9partement_Meuse"
     },
     {
         "nom": "Morbihan",
         "code": "56",
         "codeRegion": "53",
-        "population": "764161"
+        "population": "764161",
+        "drapeau": "2/23/Drapeau_fr_d%C3%A9partement_Morbihan"
     },
     {
         "nom": "Moselle",
         "code": "57",
         "codeRegion": "44",
-        "population": "1049155"
+        "population": "1049155",
+        "drapeau": "4/46/Drapeau_fr_d%C3%A9partement_Moselle"
     },
     {
         "nom": "Nièvre",
         "code": "58",
         "codeRegion": "27",
-        "population": "202670"
+        "population": "202670",
+        "drapeau": "7/71/Drapeau_fr_d%C3%A9partement_Ni%C3%A8vre"
     },
     {
         "nom": "Nord",
         "code": "59",
         "codeRegion": "32",
-        "population": "2607746"
+        "population": "2607746",
+        "drapeau": "f/f3/Drapeau_fr_d%C3%A9partement_Nord"
     },
     {
         "nom": "Oise",
         "code": "60",
         "codeRegion": "32",
-        "population": "829699"
+        "population": "829699",
+        "drapeau": "5/52/Drapeau_fr_d%C3%A9partement_Oise"
     },
     {
         "nom": "Orne",
         "code": "61",
         "codeRegion": "28",
-        "population": "278475"
+        "population": "278475",
+        "drapeau": "f/fc/Flag_of_Orne"
     },
     {
         "nom": "Pas-de-Calais",
         "code": "62",
         "codeRegion": "32",
-        "population": "1462167"
+        "population": "1462167",
+        "drapeau": "8/83/Unofficial_Flag_of_Pas-De-Calais"
     },
     {
         "nom": "Puy-de-Dôme",
         "code": "63",
         "codeRegion": "84",
-        "population": "661852"
+        "population": "661852",
+        "drapeau": "a/aa/Drapeau_propos%C3%A9_pour_le_d%C3%A9partement_Puy-de-D%C3%B4me"
     },
     {
         "nom": "Pyrénées-Atlantiques",
         "code": "64",
         "codeRegion": "75",
-        "population": "687240"
+        "population": "687240",
+        "drapeau": "a/a3/Drapeau_propos%C3%A9_pour_les_Pyrenees-atlantiques"
     },
     {
         "nom": "Hautes-Pyrénées",
         "code": "65",
         "codeRegion": "76",
-        "population": "229788"
+        "population": "229788",
+        "drapeau": "5/59/Proposed_flag_for_Hautes-Pyr%C3%A9n%C3%A9es"
     },
     {
         "nom": "Pyrénées-Orientales",
         "code": "66",
         "codeRegion": "76",
-        "population": "482765"
+        "population": "482765",
+        "drapeau": "8/82/Drapeau_propos%C3%A9_pour_le_d%C3%A9partement_des_Pyr%C3%A9n%C3%A9es-Orientales"
     },
     {
         "nom": "Bas-Rhin",
         "code": "67",
         "codeRegion": "44",
-        "population": "1148073"
+        "population": "1148073",
+        "drapeau": "5/51/Flag_of_Basse-Alsace"
     },
     {
         "nom": "Haut-Rhin",
         "code": "68",
         "codeRegion": "44",
-        "population": "767842"
+        "population": "767842",
+        "drapeau": "2/21/Flag_of_Haute-Alsace"
     },
     {
         "nom": "Rhône",
         "code": "69",
         "codeRegion": "84",
-        "population": "1883437"
+        "population": "1883437",
+        "drapeau": "e/ec/Flag_of_Rh%C3%B4ne"
     },
     {
         "nom": "Haute-Saône",
         "code": "70",
         "codeRegion": "27",
-        "population": "234601"
+        "population": "234601",
+        "drapeau": "a/a9/Drapeau_fr_d%C3%A9partement_Haute-Sa%C3%B4ne"
     },
     {
         "nom": "Saône-et-Loire",
         "code": "71",
         "codeRegion": "27",
-        "population": "551063"
+        "population": "551063",
+        "drapeau": "e/e7/Proposition_de_drapeau_pour_le_d%C3%A9partement_de_Sa%C3%B4ne-et-Loire"
     },
     {
         "nom": "Sarthe",
         "code": "72",
         "codeRegion": "52",
-        "population": "566993"
+        "population": "566993",
+        "drapeau": "b/b2/Drapeau_fr_d%C3%A9partement_Sarthe"
     },
     {
         "nom": "Savoie",
         "code": "73",
         "codeRegion": "84",
-        "population": "439750"
+        "population": "439750",
+        "drapeau": "0/02/Flag_of_Savoie"
     },
     {
         "nom": "Haute-Savoie",
         "code": "74",
         "codeRegion": "84",
-        "population": "835206"
+        "population": "835206",
+        "drapeau": "0/04/Drapeau_de_la_Savoie"
     },
     {
         "nom": "Paris",
         "code": "75",
         "codeRegion": "11",
-        "population": "2145906"
+        "population": "2145906",
+        "drapeau": "7/75/Flag_of_Paris_with_coat_of_arms"
     },
     {
         "nom": "Seine-Maritime",
         "code": "76",
         "codeRegion": "28",
-        "population": "1254739"
+        "population": "1254739",
+        "drapeau": "9/95/Proposed_flag_for_Seine-Maritime"
     },
     {
         "nom": "Seine-et-Marne",
         "code": "77",
         "codeRegion": "11",
-        "population": "1428636"
+        "population": "1428636",
+        "drapeau": "e/e6/Drapeau_propos%C3%A9_pour_le_d%C3%A9partement_de_Seine-et-Marne"
     },
     {
         "nom": "Yvelines",
         "code": "78",
         "codeRegion": "11",
-        "population": "1449723"
+        "population": "1449723",
+        "drapeau": "c/c8/Drapeau_fr_d%C3%A9partement_Yvelines"
     },
     {
         "nom": "Deux-Sèvres",
         "code": "79",
         "codeRegion": "75",
-        "population": "374481"
+        "population": "374481",
+        "drapeau": "1/17/Drapeau_fr_d%C3%A9partement_Deux-S%C3%A8vres"
     },
     {
         "nom": "Somme",
         "code": "80",
         "codeRegion": "32",
-        "population": "568748"
+        "population": "568748",
+        "drapeau": "b/be/Drapeau_fr_d%C3%A9partement_Somme"
     },
     {
         "nom": "Tarn",
         "code": "81",
         "codeRegion": "76",
-        "population": "391066"
+        "population": "391066",
+        "drapeau": "b/b0/Drapeau_fr_d%C3%A9partement_Tarn"
     },
     {
         "nom": "Tarn-et-Garonne",
         "code": "82",
         "codeRegion": "76",
-        "population": "258696"
+        "population": "258696",
+        "drapeau": "8/85/Flag_of_Tarn-et-Garonne"
     },
     {
         "nom": "Var",
         "code": "83",
         "codeRegion": "93",
-        "population": "1073394"
+        "population": "1073394",
+        "drapeau": "4/40/Proposition_de_drapeau_pour_le_Var"
     },
     {
         "nom": "Vaucluse",
         "code": "84",
         "codeRegion": "93",
-        "population": "578275"
+        "population": "578275",
+        "drapeau": "b/be/Drapeau_fr_d%C3%A9partement_Vaucluse"
     },
     {
         "nom": "Vendée",
         "code": "85",
         "codeRegion": "52",
-        "population": "694046"
+        "population": "694046",
+        "drapeau": "1/1f/Flag_of_Vend%C3%A9e"
     },
     {
         "nom": "Vienne",
         "code": "86",
         "codeRegion": "75",
-        "population": "443960"
+        "population": "443960",
+        "drapeau": "1/1d/Drapeau_fr_d%C3%A9partement_Vienne"
     },
     {
         "nom": "Haute-Vienne",
         "code": "87",
         "codeRegion": "75",
-        "population": "371532"
+        "population": "371532",
+        "drapeau": "5/5c/Drapeau_fr_d%C3%A9partement_Haute-Vienne"
     },
     {
         "nom": "Vosges",
         "code": "88",
         "codeRegion": "44",
-        "population": "372607"
+        "population": "372607",
+        "drapeau": "d/d3/Vosges"
     },
     {
         "nom": "Yonne",
         "code": "89",
         "codeRegion": "27",
-        "population": "344222"
+        "population": "344222",
+        "drapeau": "7/7c/Drapeau_fr_d%C3%A9partement_Yonne"
     },
     {
         "nom": "Territoire de Belfort",
         "code": "90",
         "codeRegion": "27",
-        "population": "148134"
+        "population": "148134",
+        "drapeau": "e/ec/Drapeau_fr_d%C3%A9partement_Territoire_de_Belfort"
     },
     {
         "nom": "Essonne",
         "code": "91",
         "codeRegion": "11",
-        "population": "1320861"
+        "population": "1320861",
+        "drapeau": "6/65/Drapeau_fr_d%C3%A9partement_Essonne"
     },
     {
         "nom": "Hauts-de-Seine",
         "code": "92",
         "codeRegion": "11",
-        "population": "1649514"
+        "population": "1649514",
+        "drapeau": "2/25/Drapeau_fr_d%C3%A9partement_Hauts-de-Seine"
     },
     {
         "nom": "Seine-Saint-Denis",
         "code": "93",
         "codeRegion": "11",
-        "population": "1635659"
+        "population": "1635659",
+        "drapeau": "7/72/Proposition_de_drapeau_fr_d%C3%A9partement_Seine-Saint-Denis"
     },
     {
         "nom": "Val-de-Marne",
         "code": "94",
         "codeRegion": "11",
-        "population": "1387940"
+        "population": "1387940",
+        "drapeau": "e/e8/Drapeau_propos%C3%A9_pour_le_d%C3%A9partement_du_Val-de-Marne"
     },
     {
         "nom": "Val-d'Oise",
         "code": "95",
         "codeRegion": "11",
-        "population": "1405479"
+        "population": "1405479",
+        "drapeau": "f/fd/Drapeau_fr_d%C3%A9partement_Val-d%27Oise"
     },
     {
         "nom": "Guadeloupe",
         "code": "971",
         "codeRegion": "01",
-        "population": "395725"
+        "population": "395725",
+        "drapeau": "e/e7/Unofficial_flag_of_Guadeloupe_%28local%29"
     },
     {
         "nom": "Martinique",
         "code": "972",
         "codeRegion": "02",
-        "population": "376480"
+        "population": "376480",
+        "drapeau": "2/27/Flag-of-Martinique"
     },
     {
         "nom": "Guyane",
         "code": "973",
         "codeRegion": "03",
-        "population": "268700"
+        "population": "268700",
+        "drapeau": "2/29/Flag_of_French_Guiana"
     },
     {
         "nom": "La Réunion",
         "code": "974",
         "codeRegion": "04",
-        "population": "858450"
+        "population": "858450",
+        "drapeau": "8/8e/Proposed_flag_of_Réunion_%28VAR%29"
     },
     {
         "nom": "Mayotte",
         "code": "976",
         "codeRegion": "06",
-        "population": "279471"
+        "population": "279471",
+        "drapeau": "b/bf/Coat_of_Arms_of_Mayotte"
     }
 ]
