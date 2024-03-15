@@ -93,6 +93,17 @@ const ContinentButtons = () => {
             </a>
         </div>
 
+        <h2>Cliquez pour ouvrir la carte sur Seterra</h2>
+
+        <div className='continents-div'>
+            <a key="departements" href="https://www.geoguessr.com/fr/vgp/3246" target="_blank" rel="noopener noreferrer">
+                <button>Départements</button>
+            </a>
+            <a key="regions" href="https://www.geoguessr.com/fr/vgp/3331" target="_blank" rel="noopener noreferrer">
+                <button>Régions</button>
+            </a>
+        </div>
+
         </div>
     );
 }
