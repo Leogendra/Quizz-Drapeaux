@@ -18,7 +18,7 @@ const Departements = () => {
     function updateDepartement() {
         const sortedData = (mode === 1) ? 
             departements_json.slice().sort(() => Math.random() - 0.5) : 
-            departements_json.slice().sort((a, b) => a.nom.localeCompare(b.nom));
+            departements_json.slice().sort((a, b) => a.code - b.code);
         setDeptData(sortedData);
         setCurrentIndex(0);
     }
@@ -79,7 +79,7 @@ const Departements = () => {
                             key={index}
                             name={departement.nom}
                             capital={departement.code}
-                            // population={0}
+                            population={departement.population}
                             flag={"https://flagcdn.com/fr.svg"}
                         />
                     ))
