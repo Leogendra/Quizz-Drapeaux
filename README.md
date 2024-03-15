@@ -1,5 +1,5 @@
 #### Site pour s'entrainer à reconnaitre les drapeaux du monde
-https://drapeaux.gatienH.fr
+https://drapeaux.gatienh.fr
 
 v1. :
 1. Drapeaux -> deviner Pays/capitales
@@ -22,5 +22,5 @@ v4. :
 
 APIs utilisées :
 - https://restcountries.com/v3.1/all
-- https://https://flagpedia.net/download/api
-- https://https://fr.wikipedia.org/wiki/Drapeaux_des_d%C3%A9partements_fran%C3%A7ais
+- https://flagpedia.net/download/api
+- https://fr.wikipedia.org/wiki/Drapeaux_des_d%C3%A9partements_fran%C3%A7ais
