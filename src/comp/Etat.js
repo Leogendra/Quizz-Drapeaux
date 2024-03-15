@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import etats_json from '../assets/data/liste_etats.json';
+import etats_json from '../assets/data/etats.json';
 import Carte from './Carte';
 
 const Etat = () => {
