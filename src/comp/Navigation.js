@@ -9,7 +9,7 @@ const Navigation = () => {
                         <li>Monde</li>
                     </NavLink>
                     <NavLink to="/etats" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                        <li>États U.S.A</li>
+                        <li>USA</li>
                     </NavLink>
                     <NavLink to="/france" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>France</li>
