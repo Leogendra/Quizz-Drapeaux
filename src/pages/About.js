@@ -8,7 +8,7 @@ const About = () => {
             <Logo />
             <Navigation />
             <div className="aPropos">
-                <h1>Quizz Géographie</h1>
+                <h1>Quizz Drapeaux</h1>
                 <br/>
                 <p>Site ReactJs pour apprendre les drapeaux du monde, États des USA et départements Français</p>
                 <br/>
@@ -23,7 +23,7 @@ const About = () => {
                 <br/>
                 <p>Départements Français : Tri par régions</p>
                 <br/>
-                <p>Lien du projet : <a href="https://github.com/Leogendra/Quizz-Geographie" target="_blank" rel="noopener noreferrer">github.com/Leogendra/Quizz-Geographie</a></p>
+                <p>Lien du projet : <a href="https://github.com/Leogendra/Quizz-Drapeaux" target="_blank" rel="noopener noreferrer">https://github.com/Quizz-Drapeaux</a></p>
             </div>
         </div>
     );
