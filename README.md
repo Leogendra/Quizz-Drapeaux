@@ -15,7 +15,12 @@ v2. :
 v3. :
 1. Ajout d'un mode contenant les drapeaux des États des États-Unis
 
-v4. (à venir) :
+v4. :
 1. Ajout d'un mode départements Français (nom et numéro)
 2. Tri par région
 3. Drapeaux culturels des départements
+
+APIs utilisées :
+- https://restcountries.com/v3.1/all
+- https://https://flagpedia.net/download/api
+- https://https://fr.wikipedia.org/wiki/Drapeaux_des_d%C3%A9partements_fran%C3%A7ais
