@@ -681,28 +681,28 @@
     {
         "nom": "Martinique",
         "code": "972",
-        "codeRegion": "02",
+        "codeRegion": "01",
         "population": "376480",
         "drapeau": "2/27/Flag-of-Martinique"
     },
     {
         "nom": "Guyane",
         "code": "973",
-        "codeRegion": "03",
+        "codeRegion": "01",
         "population": "268700",
         "drapeau": "2/29/Flag_of_French_Guiana"
     },
     {
         "nom": "La Réunion",
         "code": "974",
-        "codeRegion": "04",
+        "codeRegion": "01",
         "population": "858450",
         "drapeau": "8/8e/Proposed_flag_of_Réunion_%28VAR%29"
     },
     {
         "nom": "Mayotte",
         "code": "976",
-        "codeRegion": "06",
+        "codeRegion": "01",
         "population": "279471",
         "drapeau": "b/bf/Coat_of_Arms_of_Mayotte"
     }
