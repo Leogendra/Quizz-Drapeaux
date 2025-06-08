@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import pays_json from '../assets/data/pays.json';
 import Carte from './Carte';
 
 const Pays = () => {
@@ -11,7 +11,7 @@ const Pays = () => {
 
     // Nouvel état pour l'index actuel et le compteur de drapeaux vus
     const [currentIndex, setCurrentIndex] = useState(0);
-    
+
     const populations = [25_000_000, 10_000_000, 1_000_000, 100_000, 0];
     const [continentSelectionne, setContinentSelectionne] = useState("");
     const [onuCountry, setOnuCountry] = useState("");
@@ -41,13 +41,25 @@ const Pays = () => {
     };
 
     function updatePays() {
-        axios
-            .get("https://restcountries.com/v3.1/all?fields=translations,capital,population,flags,continents,unMember")
-            .then((res) => set_country_list(
-                    res.data.sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
-                ))
+        fetch("https://restcountries.com/v3.1/all?fields=translations,capital,population,flags,continents,unMember")
+            .then((res) => {
+                if (!res.ok) throw new Error("API error");
+                return res.json();
+            })
+            .then((data) => {
+                set_country_list(
+                    data.sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
+                );
+            })
+            .catch(() => {
+                set_country_list(
+                    pays_json.sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
+                );
+            });
+
         setCurrentIndex(0);
     }
+
 
     function tailleDataFiltree() {
         let altData = country_list.filter((pays) => pays.continents[0].includes(continentSelectionne) && pays.population > populations[rangeValue - 1]);
@@ -144,8 +156,8 @@ const Pays = () => {
 
             {(nbPays == 1) && <button className="red-button" onClick={() => updatePays()}>Mélanger</button>}
             {(nbPays == 1) && <button className="newCountry" onClick={() => nextCountry()}>Pays suivant</button>}
-            {(nbPays == 1) && (tailleDataFiltree()) && <label htmlFor="range">{currentIndex+1}/{tailleDataFiltree()}</label>}
-            
+            {(nbPays == 1) && (tailleDataFiltree()) && <label htmlFor="range">{currentIndex + 1}/{tailleDataFiltree()}</label>}
+
 
             <ul>
                 {country_list
