@@ -4,7 +4,7 @@ import axios from 'axios';
 import Carte from './Carte';
 
 const Pays = () => {
-    const [data, setData] = useState([]);
+    const [country_list, set_country_list] = useState([]);
     const [nbPays, setNbPays] = useState(1);
     const [mode, setMode] = useState(1);
     const [rangeValue, setRangeValue] = useState(1);
@@ -42,16 +42,15 @@ const Pays = () => {
 
     function updatePays() {
         axios
-            .get("https://restcountries.com/v3.1/all")
-            .then((res) => setData(
-                res.data
-                .sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
-                ));
+            .get("https://restcountries.com/v3.1/all?fields=translations,capital,population,flags,continents,unMember")
+            .then((res) => set_country_list(
+                    res.data.sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
+                ))
         setCurrentIndex(0);
     }
 
     function tailleDataFiltree() {
-        let altData = data.filter((pays) => pays.continents[0].includes(continentSelectionne) && pays.population > populations[rangeValue - 1]);
+        let altData = country_list.filter((pays) => pays.continents[0].includes(continentSelectionne) && pays.population > populations[rangeValue - 1]);
         if (mode == 2) {
             if (rangeValue > 1) {
                 altData = altData.filter((pays) => pays.population < populations[rangeValue - 2]);
@@ -149,7 +148,7 @@ const Pays = () => {
             
 
             <ul>
-                {data
+                {country_list
                     .filter((pays) => {
                         let bool = false;
                         if (pays.continents[0].includes(continentSelectionne)) {
