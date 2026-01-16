@@ -1,8 +1,10 @@
+@use "settings";
+
 .aPropos {
     margin-left: 50px;
 }
 
 a {
-    color: $color-1;
+    color: settings.$color-1;
     text-decoration: none;
 }
