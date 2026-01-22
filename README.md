@@ -1,30 +1,28 @@
-#### Site pour s'entrainer à reconnaitre les drapeaux du monde
-https://drapeaux.gatienh.fr
+# Quizz Drapeaux
+Un site web de quizz sur les drapeaux des pays, des États des États-Unis et des départements Français.
+Disponible ici : [https://drapeaux.gatienh.fr/](https://drapeaux.gatienh.fr/)
 
-v1. :
-1. Drapeaux -> deviner Pays/capitales
-2. Tri par continent ; tri par population
-3. Affichage de un ou de tous les drapeau ; mode difficile (pays entre bornes de population)
-4. Tri par appartenance aux Nations Unies
+## Fonctionnalités
+- Deviner le pays ou la capitale à partir des drapeaux.
+- Tri par continent et par population.
+- Affichage d'un ou de tous les drapeaux, avec un mode difficile (pays entre bornes de population).
+- Tri par appartenance aux Nations Unies.
+- Liens vers des cartes pour placer les drapeaux (Settera).
 
-v2. :
-1. Liens vers des cartes pour placer les drapeaux (Settera)
-2. Ajout d'un compteur dans le mode "drapeau unique"
-2. Ajout d'un bouton "mélanger" dans le mode unique
+## APIs utilisées
+- [Restcountries](https://restcountries.com/)
+- [Flagpedia](https://flagpedia.net/download/api)
+- [Wikipedia](https://fr.wikipedia.org/wiki/Drapeaux_des_d%C3%A9partements_fran%C3%A7ais)
 
-v3. :
-1. Ajout d'un mode contenant les drapeaux des États des États-Unis
+## Installation
 
-v4. :
-1. Ajout d'un mode départements Français (nom et numéro)
-2. Tri par région
-3. Drapeaux culturels des départements
+Ce projet utilise [Vite](https://vitejs.dev/) et [pnpm](https://pnpm.io/) pour installer les dépendances :
 
-v4.1 :
-1. Ajout des cartes Seterra pour les États des États-Unis
-2. Ajout des cartes Seterra pour les régions et départements Français
+```bash
+pnpm install
+```
 
-APIs utilisées :
-- https://restcountries.com/v3.1/all
-- https://flagpedia.net/download/api
-- https://fr.wikipedia.org/wiki/Drapeaux_des_d%C3%A9partements_fran%C3%A7ais
+Pour démarrer le projet en mode développement :
+```bash
+pnpm dev
+```

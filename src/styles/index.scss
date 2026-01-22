@@ -1,7 +1,7 @@
-@import "./settings";
-@import "./components/navigation";
-@import "./components/logo";
-@import "./components/countries";
-@import "./components/card";
-@import "./components/about";
-@import "./components/continents";
+@use "settings";
+@use "navigation";
+@use "logo";
+@use "countries";
+@use "card";
+@use "about";
+@use "continents";

@@ -1,3 +1,5 @@
+@use "settings";
+
 .continents {
     text-align: center;
 
@@ -5,16 +7,16 @@
         justify-content: space-around;
         align-items: center;
         margin: 0px 10px 20px;
-        background: $color-3;
+        background: settings.$color-3;
         border-radius: 20px;
         padding: 10px;
-        color: $white;
+        color: settings.$white;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
 
         button {
             margin: 8px;
             padding: 4px 10px;
-            background-color: $white;
+            background-color: settings.$white;
             border: 2px solid;
             border-radius: 10px;
             cursor: pointer;
@@ -23,19 +25,19 @@
 
 
         .modeHard {
-            background: $color-2;
-            border-color: $color-2;
+            background: settings.$color-2;
+            border-color: settings.$color-2;
 
             &:hover {
-                background: $white;
+                background: settings.$white;
             }
         }
 
         .modeEasy {
-            border-color: $color-2;
+            border-color: settings.$color-2;
 
             &:hover {
-                background: $color-2;
+                background: settings.$color-2;
             }
         }
     }
@@ -57,32 +59,32 @@
             margin: 0 10px 20px;
             padding: 4px 10px;
             background: none;
-            border: 2px solid $color-4;
+            border: 2px solid settings.$color-4;
             border-radius: 10px;
             cursor: pointer;
             transition: 0.2s;
 
             &:hover {
-                background: $color-4;
-                color: $black;
+                background: settings.$color-4;
+                color: settings.$black;
             }
         }
 
         .red {
-            border-color: $color-2;
+            border-color: settings.$color-2;
 
             &:hover {
-                background: $white;
-                color: $color-2;
+                background: settings.$white;
+                color: settings.$color-2;
             }
         }
 
         .blue {
-            border: 2px solid $color-1;
+            border: 2px solid settings.$color-1;
 
             &:hover {
-                background: $color-1;
-                color: $white;
+                background: settings.$color-1;
+                color: settings.$white;
             }
         }
     }
