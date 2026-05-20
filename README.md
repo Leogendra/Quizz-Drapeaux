@@ -9,6 +9,13 @@ Disponible ici : [https://drapeaux.gatienh.fr/](https://drapeaux.gatienh.fr/)
 - Tri par appartenance aux Nations Unies.
 - Liens vers des cartes pour placer les drapeaux (Settera).
 
+## Modes de jeu
+- Drapeaux/capitale des pays du monde
+- Description des drapeaux des pays du monde
+- Drapeaux/capitale des états des USA
+- Drapeaux/numéro des départements de France
+- Liens vers des cartes Settera
+
 ## APIs utilisées
 - [Restcountries](https://restcountries.com/)
 - [Flagpedia](https://flagpedia.net/download/api)
