@@ -1,7 +1,7 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
 import pays_json from '../assets/data/pays.json';
+import { useEffect, useState } from 'react';
 import Carte from './Carte';
+import React from 'react';
 
 const Pays = () => {
     const [country_list, set_country_list] = useState([]);
