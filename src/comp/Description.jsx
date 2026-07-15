@@ -31,19 +31,8 @@ const Description = () => {
     }
 
     function updatePays() {
-        fetch("https://restcountries.com/v3.1/all?fields=name,translations,population,flags,continents,unMember")
-            .then((res) => {
-                if (!res.ok) throw new Error("API error");
-                return res.json();
-            })
-            .then((data) => {
-                const valid = data.filter(c => c.flags?.alt);
-                set_country_list(valid.sort(() => Math.random() - 0.5));
-            })
-            .catch(() => {
-                const valid = pays_json.filter(c => c.flags?.alt);
-                set_country_list(valid.sort(() => Math.random() - 0.5));
-            });
+        const valid = pays_json.filter(c => c.flags?.alt);
+        set_country_list(valid.sort(() => Math.random() - 0.5));
         setCurrentIndex(0);
     }
 
