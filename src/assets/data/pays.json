@@ -91,6 +91,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -179,8 +183,8 @@
       }
     },
     "flags": {
-      "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-      "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+      "svg": "https://flagcdn.com/af.svg",
+      "png": "https://flagcdn.com/w320/af.png",
       "alt": "The flag of the Islamic Emirate of Afghanistan has a white field with Arabic inscriptions — the Shahada — in black across its center."
     },
     "coatOfArms": {
@@ -197,6 +201,11 @@
     },
     "timezones": [
       "UTC+04:30"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "noir"
     ]
   },
   {
@@ -291,6 +300,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir"
     ]
   },
   {
@@ -380,6 +393,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -469,6 +486,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -563,6 +585,9 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -655,6 +680,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -748,6 +778,12 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "noir",
+      "blanc"
     ]
   },
   {
@@ -848,6 +884,10 @@
     },
     "timezones": [
       "UTC-03:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -942,6 +982,11 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -1036,6 +1081,11 @@
     },
     "timezones": [
       "UTC-11:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -1113,6 +1163,10 @@
       "UTC+08:00",
       "UTC+10:00",
       "UTC+12:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -1202,6 +1256,9 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -1291,6 +1348,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir",
+      "bleu"
     ]
   },
   {
@@ -1387,6 +1449,10 @@
       "UTC+10:00",
       "UTC+10:30",
       "UTC+11:30"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -1485,6 +1551,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -1581,6 +1651,11 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "bleu",
+      "vert",
+      "rouge"
     ]
   },
   {
@@ -1679,6 +1754,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -1783,6 +1863,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "noir"
     ]
   },
   {
@@ -1877,6 +1962,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -1973,6 +2063,10 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "rouge"
     ]
   },
   {
@@ -2065,6 +2159,10 @@
     },
     "timezones": [
       "UTC+06:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge"
     ]
   },
   {
@@ -2160,6 +2258,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -2249,6 +2352,10 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -2342,6 +2449,11 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune",
+      "noir"
     ]
   },
   {
@@ -2445,6 +2557,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -2534,6 +2650,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "blanc",
+      "jaune"
     ]
   },
   {
@@ -2629,6 +2749,10 @@
     },
     "timezones": [
       "UTC+00:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -2729,6 +2853,10 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert"
     ]
   },
   {
@@ -2831,6 +2959,10 @@
     },
     "timezones": [
       "UTC-06:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -2920,6 +3052,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -3030,6 +3166,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "jaune"
     ]
   },
   {
@@ -3126,6 +3267,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -3229,6 +3374,11 @@
       "UTC-04:00",
       "UTC-03:00",
       "UTC-02:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "bleu"
     ]
   },
   {
@@ -3318,6 +3468,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -3413,6 +3567,11 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "jaune",
+      "blanc",
+      "noir"
     ]
   },
   {
@@ -3509,6 +3668,10 @@
     },
     "timezones": [
       "UTC+06:00"
+    ],
+    "colors": [
+      "jaune",
+      "orange"
     ]
   },
   {
@@ -3588,6 +3751,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -3687,6 +3854,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "noir"
     ]
   },
   {
@@ -3788,6 +3959,13 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "bleu",
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -3889,6 +4067,10 @@
       "UTC-05:00",
       "UTC-04:00",
       "UTC-03:30"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -3978,6 +4160,9 @@
     },
     "timezones": [
       "UTC+06:30"
+    ],
+    "colors": [
+      "vert"
     ]
   },
   {
@@ -4088,6 +4273,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -4182,6 +4371,11 @@
     "timezones": [
       "UTC-06:00",
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -4292,6 +4486,9 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -4387,6 +4584,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "orange",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -4488,6 +4690,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "jaune",
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -4608,6 +4815,11 @@
     "timezones": [
       "UTC+01:00",
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -4713,6 +4925,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -4811,6 +5028,10 @@
     },
     "timezones": [
       "UTC-10:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -4906,6 +5127,11 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "jaune",
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -5005,6 +5231,13 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "bleu",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -5094,6 +5327,10 @@
     },
     "timezones": [
       "UTC-01:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -5186,6 +5423,11 @@
     },
     "timezones": [
       "UTC-06:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -5279,6 +5521,11 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -5378,6 +5625,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -5467,6 +5718,10 @@
     },
     "timezones": [
       "UTC+07:00"
+    ],
+    "colors": [
+      "bleu",
+      "vert"
     ]
   },
   {
@@ -5556,6 +5811,10 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -5650,6 +5909,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "blanc",
+      "orange"
     ]
   },
   {
@@ -5749,6 +6012,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -5848,6 +6116,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "jaune",
+      "noir"
     ]
   },
   {
@@ -5946,6 +6219,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -6035,6 +6313,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune"
     ]
   },
   {
@@ -6130,6 +6412,10 @@
       "UTC-01:00",
       "UTC",
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -6223,6 +6509,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -6321,6 +6612,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -6414,6 +6709,11 @@
     "timezones": [
       "UTC-06:00",
       "UTC-05:00"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -6509,6 +6809,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir",
+      "blanc"
     ]
   },
   {
@@ -6612,6 +6917,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "vert"
     ]
   },
   {
@@ -6724,6 +7034,12 @@
     },
     "timezones": [
       "UTC+00:00"
+    ],
+    "colors": [
+      "vert",
+      "noir",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -6823,6 +7139,10 @@
     "timezones": [
       "UTC",
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -6915,6 +7235,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc",
+      "noir"
     ]
   },
   {
@@ -7011,6 +7336,12 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "jaune",
+      "bleu"
     ]
   },
   {
@@ -7109,6 +7440,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -7208,6 +7543,10 @@
     },
     "timezones": [
       "UTC+12:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -7297,6 +7636,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -7408,6 +7751,11 @@
       "UTC+10:00",
       "UTC+11:00",
       "UTC+12:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -7506,6 +7854,11 @@
     },
     "timezones": [
       "UTC+00:00"
+    ],
+    "colors": [
+      "blanc",
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -7596,6 +7949,9 @@
     "timezones": [
       "UTC+10:00",
       "UTC+11:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -7689,6 +8045,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "bleu"
     ]
   },
   {
@@ -7788,6 +8149,11 @@
       "UTC+01:00",
       "UTC+02:00",
       "UTC+06:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -7882,6 +8248,10 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -7985,6 +8355,10 @@
     },
     "timezones": [
       "UTC+00:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -8078,6 +8452,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "jaune"
     ]
   },
   {
@@ -8169,6 +8548,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -8265,6 +8648,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "rouge",
+      "jaune",
+      "vert"
     ]
   },
   {
@@ -8354,6 +8742,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "noir",
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -8445,6 +8838,11 @@
     },
     "timezones": [
       "UTC+00:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "bleu"
     ]
   },
   {
@@ -8542,6 +8940,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "jaune",
+      "vert",
+      "rouge"
     ]
   },
   {
@@ -8644,6 +9047,12 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -8738,6 +9147,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -8827,6 +9240,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "jaune",
+      "bleu"
     ]
   },
   {
@@ -8919,6 +9337,10 @@
       "UTC-03:00",
       "UTC-01:00",
       "UTC+00:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -9013,6 +9435,10 @@
     },
     "timezones": [
       "UTC-06:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -9105,6 +9531,10 @@
     },
     "timezones": [
       "UTC-03:00"
+    ],
+    "colors": [
+      "vert",
+      "jaune"
     ]
   },
   {
@@ -9204,6 +9634,10 @@
     },
     "timezones": [
       "UTC+10:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -9297,6 +9731,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -9394,6 +9833,9 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -9472,6 +9914,10 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -9565,6 +10011,10 @@
     },
     "timezones": [
       "UTC-06:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -9660,6 +10110,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -9756,6 +10211,10 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -9853,6 +10312,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -9948,6 +10412,10 @@
       "UTC+07:00",
       "UTC+08:00",
       "UTC+09:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -10046,6 +10514,9 @@
     },
     "timezones": [
       "UTC+00:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -10152,6 +10623,11 @@
     },
     "timezones": [
       "UTC+05:30"
+    ],
+    "colors": [
+      "vert",
+      "orange",
+      "blanc"
     ]
   },
   {
@@ -10241,6 +10717,11 @@
     },
     "timezones": [
       "UTC+06:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -10337,6 +10818,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "orange",
+      "blanc"
     ]
   },
   {
@@ -10435,6 +10921,11 @@
     },
     "timezones": [
       "UTC+03:30"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -10541,6 +11032,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir",
+      "blanc"
     ]
   },
   {
@@ -10630,6 +11126,10 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -10730,6 +11230,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -10827,6 +11331,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -10922,6 +11431,11 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "jaune",
+      "vert",
+      "noir"
     ]
   },
   {
@@ -11025,6 +11539,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -11121,6 +11639,12 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert",
+      "noir",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -11211,6 +11735,10 @@
     },
     "timezones": [
       "UTC+09:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -11314,6 +11842,9 @@
     "timezones": [
       "UTC+05:00",
       "UTC+06:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -11414,6 +11945,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "noir"
     ]
   },
   {
@@ -11513,6 +12049,9 @@
     },
     "timezones": [
       "UTC+06:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -11610,6 +12149,10 @@
     },
     "timezones": [
       "UTC+07:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -11710,6 +12253,11 @@
       "UTC+12:00",
       "UTC+13:00",
       "UTC+14:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -11799,6 +12347,12 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "noir",
+      "jaune"
     ]
   },
   {
@@ -11891,6 +12445,9 @@
     },
     "timezones": [
       "UTC+09:00"
+    ],
+    "colors": [
+      "blanc"
     ]
   },
   {
@@ -11988,6 +12545,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -12080,6 +12641,12 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc",
+      "noir"
     ]
   },
   {
@@ -12175,6 +12742,10 @@
     },
     "timezones": [
       "UTC+07:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -12272,6 +12843,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -12365,6 +12940,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "rouge",
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -12461,6 +13041,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "noir",
+      "rouge",
+      "vert"
     ]
   },
   {
@@ -12550,6 +13135,9 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -12642,6 +13230,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -12738,6 +13330,12 @@
     },
     "timezones": [
       "UTC+05:30"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "orange",
+      "bleu"
     ]
   },
   {
@@ -12838,6 +13436,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "blanc",
+      "bleu",
+      "vert"
     ]
   },
   {
@@ -12932,6 +13535,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "jaune",
+      "vert",
+      "rouge"
     ]
   },
   {
@@ -13035,6 +13643,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -13129,6 +13742,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -13220,6 +13837,9 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -13312,6 +13932,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -13411,6 +14036,9 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -13502,6 +14130,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -13594,6 +14226,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -13688,6 +14325,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -13777,6 +14419,10 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert"
     ]
   },
   {
@@ -13872,6 +14518,11 @@
       "UTC-08:00",
       "UTC-07:00",
       "UTC-06:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -13966,6 +14617,10 @@
     },
     "timezones": [
       "UTC+12:00"
+    ],
+    "colors": [
+      "bleu",
+      "orange"
     ]
   },
   {
@@ -14061,6 +14716,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -14158,6 +14817,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -14252,6 +14916,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -14347,6 +15015,11 @@
     },
     "timezones": [
       "UTC+06:30"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "vert"
     ]
   },
   {
@@ -14442,6 +15115,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -14535,6 +15212,10 @@
     "timezones": [
       "UTC+07:00",
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -14634,6 +15315,9 @@
     },
     "timezones": [
       "UTC+10:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -14730,6 +15414,12 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "jaune",
+      "bleu",
+      "noir",
+      "rouge"
     ]
   },
   {
@@ -14824,6 +15514,10 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "rouge"
     ]
   },
   {
@@ -14913,6 +15607,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -15002,6 +15700,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "vert",
+      "noir",
+      "rouge"
     ]
   },
   {
@@ -15101,6 +15804,12 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "jaune",
+      "vert"
     ]
   },
   {
@@ -15199,6 +15908,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "noir"
     ]
   },
   {
@@ -15297,6 +16011,11 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -15386,6 +16105,10 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -15524,6 +16247,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -15613,6 +16341,12 @@
     },
     "timezones": [
       "UTC+11:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -15710,6 +16444,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "orange",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -15804,6 +16543,10 @@
     },
     "timezones": [
       "UTC+11:30"
+    ],
+    "colors": [
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -15898,6 +16641,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -15990,6 +16737,10 @@
     },
     "timezones": [
       "UTC-06:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -16084,6 +16835,11 @@
     },
     "timezones": [
       "UTC-11:00"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -16176,6 +16932,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -16279,6 +17040,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -16371,6 +17136,10 @@
     },
     "timezones": [
       "UTC+05:45"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -16465,6 +17234,9 @@
     },
     "timezones": [
       "UTC+12:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -16568,6 +17340,10 @@
       "UTC+12:00",
       "UTC+12:45",
       "UTC+13:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -16661,6 +17437,11 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -16760,6 +17541,10 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "vert",
+      "blanc"
     ]
   },
   {
@@ -16856,6 +17641,11 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -16945,6 +17735,10 @@
     },
     "timezones": [
       "UTC-08:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -17050,6 +17844,10 @@
     },
     "timezones": [
       "UTC-05:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -17144,6 +17942,11 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -17238,6 +18041,10 @@
     },
     "timezones": [
       "UTC+09:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -17339,6 +18146,10 @@
     },
     "timezones": [
       "UTC+10:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir"
     ]
   },
   {
@@ -17436,6 +18247,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -17531,6 +18346,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -17624,6 +18444,10 @@
     },
     "timezones": [
       "UTC+09:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -17716,6 +18540,10 @@
     "timezones": [
       "UTC-01:00",
       "UTC"
+    ],
+    "colors": [
+      "rouge",
+      "vert"
     ]
   },
   {
@@ -17814,6 +18642,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -17917,6 +18750,12 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "vert",
+      "noir",
+      "blanc",
+      "rouge"
     ]
   },
   {
@@ -18008,6 +18847,10 @@
       "UTC-10:00",
       "UTC-09:30",
       "UTC-09:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -18100,6 +18943,10 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -18189,6 +19036,10 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -18284,6 +19135,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -18403,6 +19259,11 @@
       "UTC+10:00",
       "UTC+11:00",
       "UTC+12:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -18507,6 +19368,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "vert",
+      "jaune"
     ]
   },
   {
@@ -18605,6 +19471,9 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert"
     ]
   },
   {
@@ -18707,6 +19576,12 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir",
+      "blanc",
+      "vert"
     ]
   },
   {
@@ -18802,6 +19677,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -18908,6 +19788,10 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -18997,6 +19881,10 @@
     },
     "timezones": [
       "UTC-02:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -19086,6 +19974,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -19175,6 +20067,10 @@
     },
     "timezones": [
       "UTC+11:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu"
     ]
   },
   {
@@ -19267,6 +20163,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -19359,6 +20260,10 @@
     },
     "timezones": [
       "UTC-06:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -19450,6 +20355,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -19548,6 +20457,9 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "bleu"
     ]
   },
   {
@@ -19637,6 +20549,11 @@
     },
     "timezones": [
       "UTC-03:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -19736,6 +20653,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc",
+      "bleu"
     ]
   },
   {
@@ -19832,6 +20754,12 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert",
+      "noir",
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -19921,6 +20849,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -20014,6 +20947,11 @@
     },
     "timezones": [
       "UTC-03:00"
+    ],
+    "colors": [
+      "vert",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -20109,6 +21047,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -20203,6 +21146,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -20295,6 +21243,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -20396,6 +21348,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "jaune"
     ]
   },
   {
@@ -20497,6 +21454,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -20596,6 +21558,13 @@
     },
     "timezones": [
       "UTC+04:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "bleu",
+      "jaune",
+      "blanc"
     ]
   },
   {
@@ -20692,6 +21661,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "vert",
+      "noir",
+      "blanc"
     ]
   },
   {
@@ -20781,6 +21755,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -20882,6 +21860,11 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -20975,6 +21958,11 @@
     },
     "timezones": [
       "UTC"
+    ],
+    "colors": [
+      "vert",
+      "jaune",
+      "rouge"
     ]
   },
   {
@@ -21070,6 +22058,10 @@
     },
     "timezones": [
       "UTC+07:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -21169,6 +22161,11 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "blanc",
+      "rouge",
+      "vert"
     ]
   },
   {
@@ -21268,6 +22265,10 @@
     },
     "timezones": [
       "UTC+13:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -21367,6 +22368,9 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "vert"
     ]
   },
   {
@@ -21463,6 +22467,10 @@
     },
     "timezones": [
       "UTC+09:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir"
     ]
   },
   {
@@ -21557,6 +22565,10 @@
     },
     "timezones": [
       "UTC+13:00"
+    ],
+    "colors": [
+      "rouge",
+      "blanc"
     ]
   },
   {
@@ -21646,6 +22658,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir"
     ]
   },
   {
@@ -21738,6 +22754,9 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -21837,6 +22856,9 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -21935,6 +22957,10 @@
     },
     "timezones": [
       "UTC+12:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -22026,6 +23052,10 @@
     },
     "timezones": [
       "UTC+08:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -22129,6 +23159,12 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "noir",
+      "jaune"
     ]
   },
   {
@@ -22229,6 +23265,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "noir"
     ]
   },
   {
@@ -22327,6 +23368,10 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "bleu",
+      "jaune"
     ]
   },
   {
@@ -22415,6 +23460,11 @@
       "UTC-11:00",
       "UTC-10:00",
       "UTC+12:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -22507,6 +23557,10 @@
     },
     "timezones": [
       "UTC-03:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -22925,6 +23979,11 @@
       "UTC-04:00",
       "UTC+10:00",
       "UTC+12:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -23025,6 +24084,11 @@
     },
     "timezones": [
       "UTC+05:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "blanc"
     ]
   },
   {
@@ -23122,6 +24186,10 @@
     },
     "timezones": [
       "UTC+01:00"
+    ],
+    "colors": [
+      "jaune",
+      "blanc"
     ]
   },
   {
@@ -23211,6 +24279,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "jaune",
+      "vert",
+      "bleu"
     ]
   },
   {
@@ -23304,6 +24377,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "jaune",
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -23393,6 +24471,10 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -23482,6 +24564,11 @@
     },
     "timezones": [
       "UTC-04:00"
+    ],
+    "colors": [
+      "blanc",
+      "jaune",
+      "bleu"
     ]
   },
   {
@@ -23575,6 +24662,9 @@
     },
     "timezones": [
       "UTC+07:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -23674,6 +24764,12 @@
     },
     "timezones": [
       "UTC+11:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "jaune",
+      "noir"
     ]
   },
   {
@@ -23763,6 +24859,9 @@
     },
     "timezones": [
       "UTC+12:00"
+    ],
+    "colors": [
+      "rouge"
     ]
   },
   {
@@ -23857,6 +24956,10 @@
     },
     "timezones": [
       "UTC+13:00"
+    ],
+    "colors": [
+      "rouge",
+      "bleu"
     ]
   },
   {
@@ -23949,6 +25052,11 @@
     },
     "timezones": [
       "UTC+03:00"
+    ],
+    "colors": [
+      "rouge",
+      "noir",
+      "blanc"
     ]
   },
   {
@@ -24097,6 +25205,11 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "vert",
+      "bleu",
+      "rouge"
     ]
   },
   {
@@ -24195,6 +25308,9 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "vert"
     ]
   },
   {
@@ -24359,6 +25475,12 @@
     },
     "timezones": [
       "UTC+02:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "jaune",
+      "blanc"
     ]
   }
 ]
