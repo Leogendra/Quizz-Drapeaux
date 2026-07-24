@@ -3,6 +3,16 @@ import { useEffect, useState } from 'react';
 import Carte from './Carte';
 import React from 'react';
 
+const COLOR_MAP = {
+    rouge:  '#e74c3c',
+    bleu:   '#2980b9',
+    vert:   '#27ae60',
+    jaune:  '#f0c030',
+    blanc:  '#f3f3f3',
+    noir:   '#2c3e50',
+    orange: '#e67e22',
+};
+
 const Pays = () => {
     const [country_list, set_country_list] = useState([]);
     const [nbPays, setNbPays] = useState(1);
@@ -15,6 +25,8 @@ const Pays = () => {
     const populations = [25_000_000, 10_000_000, 1_000_000, 100_000, 0];
     const [continentSelectionne, setContinentSelectionne] = useState("");
     const [onuCountry, setOnuCountry] = useState("");
+    const [selectedColors, setSelectedColors] = useState([]);
+    const [colorInput, setColorInput] = useState("");
     const continents = {
         "Africa": "Afrique",
         "America": "Amérique",
@@ -48,23 +60,56 @@ const Pays = () => {
     }
 
 
-    function tailleDataFiltree() {
-        let altData = country_list.filter((pays) => pays.continents[0].includes(continentSelectionne) && pays.population > populations[rangeValue - 1]);
+    function addColor(raw) {
+        const color = raw.trim().toLowerCase();
+        if (color in COLOR_MAP && !selectedColors.includes(color)) {
+            setSelectedColors(prev => [...prev, color]);
+            setCurrentIndex(0);
+            setColorInput("");
+            return true;
+        }
+        return false;
+    }
+
+    function removeColor(color) {
+        setSelectedColors(prev => prev.filter(c => c !== color));
+        setCurrentIndex(0);
+    }
+
+    function handleColorChange(e) {
+        const val = e.target.value;
+        if (!addColor(val)) setColorInput(val);
+    }
+
+    function handleColorKeyDown(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            addColor(colorInput);
+        }
+    }
+
+    function applyFilters(list) {
+        let data = list.filter((pays) =>
+            pays.continents[0].includes(continentSelectionne) &&
+            pays.population > populations[rangeValue - 1]
+        );
         if (mode == 2) {
-            if (rangeValue > 1) {
-                altData = altData.filter((pays) => pays.population < populations[rangeValue - 2]);
-            }
-            else {
-                altData = altData.filter((pays) => pays.population < 9_999_999_999);
-            }
+            data = data.filter((pays) =>
+                pays.population < ((rangeValue > 1) ? populations[rangeValue - 2] : 9_999_999_999)
+            );
         }
-        if (onuCountry == "1") {
-            altData = altData.filter((pays) => pays.unMember == true);
+        if (onuCountry == "1") data = data.filter((pays) => pays.unMember == true);
+        else if (onuCountry == "2") data = data.filter((pays) => pays.unMember == false);
+        if (selectedColors.length > 0) {
+            data = data.filter((pays) =>
+                selectedColors.every(color => pays.colors?.includes(color))
+            );
         }
-        else if (onuCountry == "2") {
-            altData = altData.filter((pays) => pays.unMember == false);
-        }
-        return altData.length;
+        return data;
+    }
+
+    function tailleDataFiltree() {
+        return applyFilters(country_list).length;
     }
 
     function nextCountry() {
@@ -139,6 +184,33 @@ const Pays = () => {
                     {<button className={(mode == 1) ? "modeEasy" : "modeHard"} onClick={() => setMode((mode == 1) ? 2 : 1)}>Mode intervale</button>}
                 </li>
 
+                <li className="color-filter-row">
+                    <label htmlFor="color-input">Couleurs</label>
+                    <div className="color-filters">
+                        {selectedColors.map(color => (
+                            <span key={color} className="color-pill">
+                                <span className="color-dot" style={{ background: COLOR_MAP[color] }} />
+                                {color}
+                                <button className="pill-remove" onClick={() => removeColor(color)} aria-label={`Retirer ${color}`}>✕</button>
+                            </span>
+                        ))}
+                        <input
+                            id="color-input"
+                            list="color-suggestions"
+                            value={colorInput}
+                            onChange={handleColorChange}
+                            onKeyDown={handleColorKeyDown}
+                            placeholder="rouge, bleu…"
+                            autoComplete="off"
+                        />
+                        <datalist id="color-suggestions">
+                            {Object.keys(COLOR_MAP).filter(c => !selectedColors.includes(c)).map(c => (
+                                <option key={c} value={c} />
+                            ))}
+                        </datalist>
+                    </div>
+                </li>
+
             </ul>
 
             {(nbPays == 1) && <button className="red-button" onClick={() => updatePays()}>Mélanger</button>}
@@ -147,23 +219,7 @@ const Pays = () => {
 
 
             <ul>
-                {country_list
-                    .filter((pays) => {
-                        let bool = false;
-                        if (pays.continents[0].includes(continentSelectionne)) {
-                            bool = (pays.population > populations[rangeValue - 1]);
-                            if (mode == 2) {
-                                bool = bool && (pays.population < ((rangeValue > 1) ? populations[rangeValue - 2] : 9_999_999_999));
-                            }
-                            if (onuCountry == 1) {
-                                bool = bool && pays.unMember;
-                            }
-                            else if (onuCountry == 2) {
-                                bool = bool && !pays.unMember;
-                            }
-                        }
-                        return bool
-                    })
+                {applyFilters(country_list)
                     .slice(currentIndex, currentIndex + nbPays)
                     .map((pays, index) => (
                         <Carte
