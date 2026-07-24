@@ -17,7 +17,7 @@ Disponible ici : [https://drapeaux.gatienh.fr/](https://drapeaux.gatienh.fr/)
 - Liens vers des cartes Settera
 
 ## APIs utilisées
-- [Restcountries](https://restcountries.com/)
+- [Restcountries](https://restcountries.com/docs/countries/api-versions) [deprecated, usage local]
 - [Flagpedia](https://flagpedia.net/download/api)
 - [Wikipedia](https://fr.wikipedia.org/wiki/Drapeaux_des_d%C3%A9partements_fran%C3%A7ais)
 
