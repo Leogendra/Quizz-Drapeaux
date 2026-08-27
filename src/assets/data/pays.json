@@ -3728,8 +3728,8 @@
     "flag": "🇧🇻",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Norvégienne",
+        "m": "Norvégien"
       }
     },
     "flags": {
@@ -4137,8 +4137,8 @@
     "flag": "🇨🇨",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Insulaire des îles Cocos",
+        "m": "Insulaire des îles Cocos"
       }
     },
     "flags": {
@@ -5695,8 +5695,8 @@
     "flag": "🇨🇽",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Insulaire de l'île Christmas",
+        "m": "Insulaire de l'île Christmas"
       }
     },
     "flags": {
@@ -7011,8 +7011,8 @@
     "flag": "🇪🇭",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Sahraouie",
+        "m": "Sahraoui"
       }
     },
     "flags": {
@@ -9611,8 +9611,8 @@
     "flag": "🇬🇺",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Guamienne",
+        "m": "Guamien"
       }
     },
     "flags": {
@@ -9877,7 +9877,7 @@
     },
     "translations": {
       "fra": {
-        "official": "Des îles Heard et McDonald",
+        "official": "Îles Heard-et-MacDonald",
         "common": "Îles Heard-et-MacDonald"
       }
     },
@@ -9891,8 +9891,8 @@
     "flag": "🇭🇲",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Australienne",
+        "m": "Australien"
       }
     },
     "flags": {
@@ -10491,8 +10491,8 @@
     "flag": "🇮🇲",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Mannoise",
+        "m": "Mannois"
       }
     },
     "flags": {
@@ -10694,8 +10694,8 @@
     "flag": "🇮🇴",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Chagossienne",
+        "m": "Chagossien"
       }
     },
     "flags": {
@@ -19478,6 +19478,112 @@
   },
   {
     "name": {
+      "common": "Scotland",
+      "official": "Scotland",
+      "nativeName": {
+        "eng": {
+          "official": "Scotland",
+          "common": "Scotland"
+        },
+        "gla": {
+          "official": "Alba",
+          "common": "Alba"
+        },
+        "sco": {
+          "official": "Scotland",
+          "common": "Scotland"
+        }
+      }
+    },
+    "tld": [
+      ".scot",
+      ".uk"
+    ],
+    "cca2": "GB-SCT",
+    "cca3": "SCT",
+    "independent": false,
+    "status": "user-assigned",
+    "unMember": false,
+    "currencies": {
+      "GBP": {
+        "name": "British pound",
+        "symbol": "£"
+      }
+    },
+    "idd": {
+      "root": "+4",
+      "suffixes": [
+        "4"
+      ]
+    },
+    "capital": [
+      "Edinburgh"
+    ],
+    "capitalInfo": {
+      "latlng": [
+        55.95,
+        -3.19
+      ]
+    },
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "continents": [
+      "Europe"
+    ],
+    "languages": {
+      "eng": "English",
+      "gla": "Scottish Gaelic",
+      "sco": "Scots"
+    },
+    "translations": {
+      "fra": {
+        "official": "Écosse",
+        "common": "Écosse"
+      }
+    },
+    "latlng": [
+      56.49,
+      -4.2
+    ],
+    "landlocked": false,
+    "borders": [
+      "GBR"
+    ],
+    "area": 77933,
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "demonyms": {
+      "fra": {
+        "f": "Écossaise",
+        "m": "Écossais"
+      }
+    },
+    "flags": {
+      "svg": "https://flagcdn.com/gb-sct.svg",
+      "png": "https://flagcdn.com/w320/gb-sct.png",
+      "alt": "The flag of Scotland — the Saltire, or Saint Andrew's Cross — has a blue field with a white diagonal cross that extends to the corners of the field."
+    },
+    "coatOfArms": {
+      "svg": "https://upload.wikimedia.org/wikipedia/commons/9/93/Royal_Coat_of_Arms_of_the_Kingdom_of_Scotland.svg",
+      "png": ""
+    },
+    "population": 5490100,
+    "maps": {
+      "googleMaps": "https://www.google.com/maps/place/Scotland",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/58446"
+    },
+    "car": {
+      "side": "left"
+    },
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "colors": [
+      "bleu",
+      "blanc"
+    ]
+  },
+  {
+    "name": {
       "common": "Sudan",
       "official": "Republic of the Sudan",
       "nativeName": {
@@ -19858,8 +19964,8 @@
     "flag": "🇬🇸",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Sud-Géorgienne",
+        "m": "Sud-Géorgien"
       }
     },
     "flags": {
@@ -19951,8 +20057,8 @@
     "flag": "🇸🇯",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Norvégienne",
+        "m": "Norvégien"
       }
     },
     "flags": {
@@ -21732,8 +21838,8 @@
     "flag": "🇹🇨",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Insulaire des îles Turques-et-Caïques",
+        "m": "Insulaire des îles Turques-et-Caïques"
       }
     },
     "flags": {
@@ -22242,8 +22348,8 @@
     "flag": "🇹🇰",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Tokelauienne",
+        "m": "Tokelauien"
       }
     },
     "flags": {
@@ -23435,8 +23541,8 @@
     "flag": "🇺🇲",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "États-Unienne",
+        "m": "États-Unien"
       }
     },
     "flags": {
@@ -24448,8 +24554,8 @@
     "flag": "🇻🇬",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Insulaire des îles Vierges britanniques",
+        "m": "Insulaire des îles Vierges britanniques"
       }
     },
     "flags": {
@@ -24541,8 +24647,8 @@
     "flag": "🇻🇮",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Insulaire des Îles Vierges des États-Unis",
+        "m": "Insulaire des Îles Vierges des États-Unis"
       }
     },
     "flags": {
@@ -24836,8 +24942,8 @@
     "flag": "🇼🇫",
     "demonyms": {
       "fra": {
-        "f": "",
-        "m": ""
+        "f": "Wallis-et-Futunienne",
+        "m": "Wallis-et-Futunien"
       }
     },
     "flags": {
@@ -24862,6 +24968,109 @@
     ],
     "colors": [
       "rouge"
+    ]
+  },
+  {
+    "name": {
+      "common": "Wales",
+      "official": "Wales",
+      "nativeName": {
+        "cym": {
+          "official": "Cymru",
+          "common": "Cymru"
+        },
+        "eng": {
+          "official": "Wales",
+          "common": "Wales"
+        }
+      }
+    },
+    "tld": [
+      ".wales",
+      ".cymru",
+      ".uk"
+    ],
+    "cca2": "GB-WLS",
+    "cca3": "WLS",
+    "independent": false,
+    "status": "user-assigned",
+    "unMember": false,
+    "currencies": {
+      "GBP": {
+        "name": "British pound",
+        "symbol": "£"
+      }
+    },
+    "idd": {
+      "root": "+4",
+      "suffixes": [
+        "4"
+      ]
+    },
+    "capital": [
+      "Cardiff"
+    ],
+    "capitalInfo": {
+      "latlng": [
+        51.48,
+        -3.18
+      ]
+    },
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "continents": [
+      "Europe"
+    ],
+    "languages": {
+      "cym": "Welsh",
+      "eng": "English"
+    },
+    "translations": {
+      "fra": {
+        "official": "Pays de Galles",
+        "common": "Pays de Galles"
+      }
+    },
+    "latlng": [
+      52.3,
+      -3.7
+    ],
+    "landlocked": false,
+    "borders": [
+      "GBR"
+    ],
+    "area": 20779,
+    "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "demonyms": {
+      "fra": {
+        "f": "Galloise",
+        "m": "Gallois"
+      }
+    },
+    "flags": {
+      "svg": "https://flagcdn.com/gb-wls.svg",
+      "png": "https://flagcdn.com/w320/gb-wls.png",
+      "alt": "The flag of Wales features a red dragon passant on a field divided horizontally, white over green."
+    },
+    "coatOfArms": {
+      "svg": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Coat_of_Arms_of_Cardiff.svg",
+      "png": ""
+    },
+    "population": 3164000,
+    "maps": {
+      "googleMaps": "https://www.google.com/maps/place/Wales",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/58437"
+    },
+    "car": {
+      "side": "left"
+    },
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "colors": [
+      "rouge",
+      "vert",
+      "blanc"
     ]
   },
   {
