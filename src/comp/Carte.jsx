@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Carte = ({ pays, name, capital, population, flag }) => {
+const Carte = ({ name, capital, population, flag }) => {
     const getPopulation = () => {
         if (population > 1000000) {
             return (population / 1000000).toFixed(0) + "M";
