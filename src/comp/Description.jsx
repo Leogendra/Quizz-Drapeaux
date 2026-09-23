@@ -42,6 +42,12 @@ const Description = () => {
         return num;
     }
 
+    // Libellé du palier `index` du slider (1 à 5), selon le mode courant
+    function getRangeLabel(index) {
+        if (mode == 1) return getPopulation(populations[index - 1]);
+        return ((index > 1) ? getPopulation(populations[index - 2]) : "inf") + "-" + getPopulation(populations[index - 1]);
+    }
+
     function getFilteredList() {
         return country_list.filter((pays) => {
             if (!pays.continents[0].includes(continentSelectionne)) return false;
@@ -102,13 +108,16 @@ const Description = () => {
                     </select>
                 </li>
 
-                <li>
-                    <label htmlFor="desc-range">
+                <li className="range-row">
+                    <label htmlFor="desc-range" className="range-label">
                         Pop. {mode == 1 ? "min" : "entre"} :{" "}
-                        {mode == 1
-                            ? getPopulation(populations[rangeValue - 1])
-                            : (rangeValue > 1 ? getPopulation(populations[rangeValue - 2]) : "inf") + "-" + getPopulation(populations[rangeValue - 1])
-                        }
+                        <span className="range-value">
+                            {populations.map((_, i) => (
+                                <span key={i} className={(i + 1 == rangeValue) ? "is-current" : ""}>
+                                    {getRangeLabel(i + 1)}
+                                </span>
+                            ))}
+                        </span>
                     </label>
                     <input
                         type="range"

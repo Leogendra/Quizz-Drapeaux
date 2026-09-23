@@ -52,6 +52,12 @@ const Pays = () => {
         }
     };
 
+    // Libellé du palier `index` du slider (1 à 5), selon le mode courant
+    function getRangeLabel(index) {
+        if (mode == 1) return getPopulation(populations[index - 1]);
+        return ((index > 1) ? getPopulation(populations[index - 2]) : "inf") + "-" + getPopulation(populations[index - 1]);
+    };
+
     function updatePays() {
         set_country_list(
             pays_json.sort((a, b) => (nbPays == 300) ? (b.population - a.population) : (Math.random() - 0.5))
@@ -158,8 +164,19 @@ const Pays = () => {
                 </li>
 
                 {/* Slider qui défini le niveau de difficulté, coupe les pays en 5 parties, ordonées par population */}
-                <li>
-                    <label htmlFor="range">Pop. {(mode == 1) ? "min" : "entre"} : {(mode == 1) ? getPopulation(populations[rangeValue - 1]) : ((rangeValue > 1) ? getPopulation(populations[rangeValue - 2]) : "inf") + "-" + getPopulation(populations[rangeValue - 1])}</label>
+                <li className="range-row">
+                    <label htmlFor="range" className="range-label">
+                        Pop. {(mode == 1) ? "min" : "entre"} :{" "}
+                        {/* tous les paliers sont empilés : la largeur reste celle du plus large,
+                            donc le slider ne bouge pas pendant que l'on fait glisser le curseur */}
+                        <span className="range-value">
+                            {populations.map((_, i) => (
+                                <span key={i} className={(i + 1 == rangeValue) ? "is-current" : ""}>
+                                    {getRangeLabel(i + 1)}
+                                </span>
+                            ))}
+                        </span>
+                    </label>
                     <input
                         type="range"
                         min="1"
@@ -176,7 +193,11 @@ const Pays = () => {
 
                 <li>
                     {/* Bouton qui permet de passer d'un pays à tous les pays */}
-                    {<button className={(nbPays == 1) ? "oneCountries" : "allCountries"} onClick={() => setNbPays((nbPays == 1) ? 300 : 1)}>Tous les pays ({tailleDataFiltree()})</button>}
+                    {<button className={"count-button " + ((nbPays == 1) ? "oneCountries" : "allCountries")} onClick={() => setNbPays((nbPays == 1) ? 300 : 1)}>
+                        {/* fantôme à 3 chiffres : fige la largeur du bouton pendant que le compteur change */}
+                        <span className="count-ghost" aria-hidden="true">Tous les pays (000)</span>
+                        <span>Tous les pays ({tailleDataFiltree()})</span>
+                    </button>}
                 </li>
 
                 <li>
