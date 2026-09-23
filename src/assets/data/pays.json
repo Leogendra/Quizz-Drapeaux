@@ -55,7 +55,10 @@
     "translations": {
       "fra": {
         "official": "Aruba",
-        "common": "Aruba"
+        "common": "Aruba",
+        "capital": [
+          "Oranjestad"
+        ]
       }
     },
     "latlng": [
@@ -158,7 +161,10 @@
     "translations": {
       "fra": {
         "official": "République islamique d'Afghanistan",
-        "common": "Afghanistan"
+        "common": "Afghanistan",
+        "capital": [
+          "Kaboul"
+        ]
       }
     },
     "latlng": [
@@ -259,7 +265,10 @@
     "translations": {
       "fra": {
         "official": "République d'Angola",
-        "common": "Angola"
+        "common": "Angola",
+        "capital": [
+          "Luanda"
+        ]
       }
     },
     "latlng": [
@@ -357,7 +366,10 @@
     "translations": {
       "fra": {
         "official": "Anguilla",
-        "common": "Anguilla"
+        "common": "Anguilla",
+        "capital": [
+          "The Valley"
+        ]
       }
     },
     "latlng": [
@@ -450,7 +462,10 @@
     "translations": {
       "fra": {
         "official": "Ahvenanmaa",
-        "common": "Ahvenanmaa"
+        "common": "Ahvenanmaa",
+        "capital": [
+          "Mariehamn"
+        ]
       }
     },
     "latlng": [
@@ -544,7 +559,10 @@
     "translations": {
       "fra": {
         "official": "République d'Albanie",
-        "common": "Albanie"
+        "common": "Albanie",
+        "capital": [
+          "Tirana"
+        ]
       }
     },
     "latlng": [
@@ -641,7 +659,10 @@
     "translations": {
       "fra": {
         "official": "Principauté d'Andorre",
-        "common": "Andorre"
+        "common": "Andorre",
+        "capital": [
+          "Andorre-la-Vieille"
+        ]
       }
     },
     "latlng": [
@@ -739,7 +760,10 @@
     "translations": {
       "fra": {
         "official": "Émirats arabes unis",
-        "common": "Émirats arabes unis"
+        "common": "Émirats arabes unis",
+        "capital": [
+          "Abou Dabi"
+        ]
       }
     },
     "latlng": [
@@ -842,7 +866,10 @@
     "translations": {
       "fra": {
         "official": "République argentine",
-        "common": "Argentine"
+        "common": "Argentine",
+        "capital": [
+          "Buenos Aires"
+        ]
       }
     },
     "latlng": [
@@ -941,7 +968,10 @@
     "translations": {
       "fra": {
         "official": "République d'Arménie",
-        "common": "Arménie"
+        "common": "Arménie",
+        "capital": [
+          "Erevan"
+        ]
       }
     },
     "latlng": [
@@ -1045,7 +1075,10 @@
     "translations": {
       "fra": {
         "official": "Samoa américaines",
-        "common": "Samoa américaines"
+        "common": "Samoa américaines",
+        "capital": [
+          "Pago Pago"
+        ]
       }
     },
     "latlng": [
@@ -1120,7 +1153,8 @@
     "translations": {
       "fra": {
         "official": "Antarctique",
-        "common": "Antarctique"
+        "common": "Antarctique",
+        "capital": []
       }
     },
     "latlng": [
@@ -1220,7 +1254,10 @@
     "translations": {
       "fra": {
         "official": "Territoire des Terres australes et antarctiques françaises",
-        "common": "Terres australes et antarctiques françaises"
+        "common": "Terres australes et antarctiques françaises",
+        "capital": [
+          "Port-aux-Français"
+        ]
       }
     },
     "latlng": [
@@ -1312,7 +1349,10 @@
     "translations": {
       "fra": {
         "official": "Antigua-et-Barbuda",
-        "common": "Antigua-et-Barbuda"
+        "common": "Antigua-et-Barbuda",
+        "capital": [
+          "Saint John's"
+        ]
       }
     },
     "latlng": [
@@ -1406,7 +1446,10 @@
     "translations": {
       "fra": {
         "official": "Australie",
-        "common": "Australie"
+        "common": "Australie",
+        "capital": [
+          "Canberra"
+        ]
       }
     },
     "latlng": [
@@ -1506,7 +1549,10 @@
     "translations": {
       "fra": {
         "official": "République d'Autriche",
-        "common": "Autriche"
+        "common": "Autriche",
+        "capital": [
+          "Vienne"
+        ]
       }
     },
     "latlng": [
@@ -1609,7 +1655,10 @@
     "translations": {
       "fra": {
         "official": "République d'Azerbaïdjan",
-        "common": "Azerbaïdjan"
+        "common": "Azerbaïdjan",
+        "capital": [
+          "Bakou"
+        ]
       }
     },
     "latlng": [
@@ -1714,7 +1763,10 @@
     "translations": {
       "fra": {
         "official": "République du Burundi",
-        "common": "Burundi"
+        "common": "Burundi",
+        "capital": [
+          "Gitega"
+        ]
       }
     },
     "latlng": [
@@ -1822,7 +1874,10 @@
     "translations": {
       "fra": {
         "official": "Royaume de Belgique",
-        "common": "Belgique"
+        "common": "Belgique",
+        "capital": [
+          "Bruxelles"
+        ]
       }
     },
     "latlng": [
@@ -1921,7 +1976,10 @@
     "translations": {
       "fra": {
         "official": "République du Bénin",
-        "common": "Bénin"
+        "common": "Bénin",
+        "capital": [
+          "Porto-Novo"
+        ]
       }
     },
     "latlng": [
@@ -2020,7 +2078,10 @@
     "translations": {
       "fra": {
         "official": "République du Burkina",
-        "common": "Burkina Faso"
+        "common": "Burkina Faso",
+        "capital": [
+          "Ouagadougou"
+        ]
       }
     },
     "latlng": [
@@ -2120,7 +2181,10 @@
     "translations": {
       "fra": {
         "official": "La République populaire du Bangladesh",
-        "common": "Bangladesh"
+        "common": "Bangladesh",
+        "capital": [
+          "Dacca"
+        ]
       }
     },
     "latlng": [
@@ -2216,7 +2280,10 @@
     "translations": {
       "fra": {
         "official": "République de Bulgarie",
-        "common": "Bulgarie"
+        "common": "Bulgarie",
+        "capital": [
+          "Sofia"
+        ]
       }
     },
     "latlng": [
@@ -2316,7 +2383,10 @@
     "translations": {
       "fra": {
         "official": "Royaume de Bahreïn",
-        "common": "Bahreïn"
+        "common": "Bahreïn",
+        "capital": [
+          "Manama"
+        ]
       }
     },
     "latlng": [
@@ -2413,7 +2483,10 @@
     "translations": {
       "fra": {
         "official": "Commonwealth des Bahamas",
-        "common": "Bahamas"
+        "common": "Bahamas",
+        "capital": [
+          "Nassau"
+        ]
       }
     },
     "latlng": [
@@ -2517,7 +2590,10 @@
     "translations": {
       "fra": {
         "official": "Bosnie-et-Herzégovine",
-        "common": "Bosnie-Herzégovine"
+        "common": "Bosnie-Herzégovine",
+        "capital": [
+          "Sarajevo"
+        ]
       }
     },
     "latlng": [
@@ -2614,7 +2690,10 @@
     "translations": {
       "fra": {
         "official": "Collectivité de Saint-Barthélemy",
-        "common": "Saint-Barthélemy"
+        "common": "Saint-Barthélemy",
+        "capital": [
+          "Gustavia"
+        ]
       }
     },
     "latlng": [
@@ -2713,7 +2792,10 @@
     "translations": {
       "fra": {
         "official": "Sainte-Hélène, Ascension et Tristan da Cunha",
-        "common": "Sainte-Hélène, Ascension et Tristan da Cunha"
+        "common": "Sainte-Hélène, Ascension et Tristan da Cunha",
+        "capital": [
+          "Jamestown"
+        ]
       }
     },
     "latlng": [
@@ -2811,7 +2893,10 @@
     "translations": {
       "fra": {
         "official": "République de Biélorussie",
-        "common": "Biélorussie"
+        "common": "Biélorussie",
+        "capital": [
+          "Minsk"
+        ]
       }
     },
     "latlng": [
@@ -2920,7 +3005,10 @@
     "translations": {
       "fra": {
         "official": "Belize",
-        "common": "Belize"
+        "common": "Belize",
+        "capital": [
+          "Belmopan"
+        ]
       }
     },
     "latlng": [
@@ -3016,7 +3104,10 @@
     "translations": {
       "fra": {
         "official": "Bermudes",
-        "common": "Bermudes"
+        "common": "Bermudes",
+        "capital": [
+          "Hamilton"
+        ]
       }
     },
     "latlng": [
@@ -3124,7 +3215,10 @@
     "translations": {
       "fra": {
         "official": "État plurinational de Bolivie",
-        "common": "Bolivie"
+        "common": "Bolivie",
+        "capital": [
+          "Sucre"
+        ]
       }
     },
     "latlng": [
@@ -3231,7 +3325,10 @@
     "translations": {
       "fra": {
         "official": "Bonaire, Saint-Eustache et Saba",
-        "common": "Pays-Bas caribéens"
+        "common": "Pays-Bas caribéens",
+        "capital": [
+          "Kralendijk"
+        ]
       }
     },
     "latlng": [
@@ -3324,7 +3421,10 @@
     "translations": {
       "fra": {
         "official": "République fédérative du Brésil",
-        "common": "Brésil"
+        "common": "Brésil",
+        "capital": [
+          "Brasilia"
+        ]
       }
     },
     "latlng": [
@@ -3432,7 +3532,10 @@
     "translations": {
       "fra": {
         "official": "Barbade",
-        "common": "Barbade"
+        "common": "Barbade",
+        "capital": [
+          "Bridgetown"
+        ]
       }
     },
     "latlng": [
@@ -3529,7 +3632,10 @@
     "translations": {
       "fra": {
         "official": "État de Brunei Darussalam",
-        "common": "Brunei"
+        "common": "Brunei",
+        "capital": [
+          "Bandar Seri Begawan"
+        ]
       }
     },
     "latlng": [
@@ -3629,7 +3735,10 @@
     "translations": {
       "fra": {
         "official": "Royaume du Bhoutan",
-        "common": "Bhoutan"
+        "common": "Bhoutan",
+        "capital": [
+          "Thimphou"
+        ]
       }
     },
     "latlng": [
@@ -3715,7 +3824,8 @@
     "translations": {
       "fra": {
         "official": "Île Bouvet",
-        "common": "Île Bouvet"
+        "common": "Île Bouvet",
+        "capital": []
       }
     },
     "latlng": [
@@ -3813,7 +3923,10 @@
     "translations": {
       "fra": {
         "official": "République du Botswana",
-        "common": "Botswana"
+        "common": "Botswana",
+        "capital": [
+          "Gaborone"
+        ]
       }
     },
     "latlng": [
@@ -3916,7 +4029,10 @@
     "translations": {
       "fra": {
         "official": "République centrafricaine",
-        "common": "République centrafricaine"
+        "common": "République centrafricaine",
+        "capital": [
+          "Bangui"
+        ]
       }
     },
     "latlng": [
@@ -4024,7 +4140,10 @@
     "translations": {
       "fra": {
         "official": "Canada",
-        "common": "Canada"
+        "common": "Canada",
+        "capital": [
+          "Ottawa"
+        ]
       }
     },
     "latlng": [
@@ -4124,7 +4243,10 @@
     "translations": {
       "fra": {
         "official": "Territoire des îles Cocos (Keeling)",
-        "common": "Îles Cocos"
+        "common": "Îles Cocos",
+        "capital": [
+          "West Island"
+        ]
       }
     },
     "latlng": [
@@ -4231,7 +4353,10 @@
     "translations": {
       "fra": {
         "official": "Confédération suisse",
-        "common": "Suisse"
+        "common": "Suisse",
+        "capital": [
+          "Berne"
+        ]
       }
     },
     "latlng": [
@@ -4330,7 +4455,10 @@
     "translations": {
       "fra": {
         "official": "République du Chili",
-        "common": "Chili"
+        "common": "Chili",
+        "capital": [
+          "Santiago"
+        ]
       }
     },
     "latlng": [
@@ -4433,7 +4561,10 @@
     "translations": {
       "fra": {
         "official": "République populaire de Chine",
-        "common": "Chine"
+        "common": "Chine",
+        "capital": [
+          "Pékin"
+        ]
       }
     },
     "latlng": [
@@ -4542,7 +4673,10 @@
     "translations": {
       "fra": {
         "official": "République de Côte d' Ivoire",
-        "common": "Côte d'Ivoire"
+        "common": "Côte d'Ivoire",
+        "capital": [
+          "Yamoussoukro"
+        ]
       }
     },
     "latlng": [
@@ -4647,7 +4781,10 @@
     "translations": {
       "fra": {
         "official": "République du Cameroun",
-        "common": "Cameroun"
+        "common": "Cameroun",
+        "capital": [
+          "Yaoundé"
+        ]
       }
     },
     "latlng": [
@@ -4768,7 +4905,10 @@
     "translations": {
       "fra": {
         "official": "République démocratique du Congo",
-        "common": "Congo (Rép. dém.)"
+        "common": "Congo (Rép. dém.)",
+        "capital": [
+          "Kinshasa"
+        ]
       }
     },
     "latlng": [
@@ -4883,7 +5023,10 @@
     "translations": {
       "fra": {
         "official": "République du Congo",
-        "common": "Congo"
+        "common": "Congo",
+        "capital": [
+          "Brazzaville"
+        ]
       }
     },
     "latlng": [
@@ -4992,7 +5135,10 @@
     "translations": {
       "fra": {
         "official": "Îles Cook",
-        "common": "Îles Cook"
+        "common": "Îles Cook",
+        "capital": [
+          "Avarua"
+        ]
       }
     },
     "latlng": [
@@ -5085,7 +5231,10 @@
     "translations": {
       "fra": {
         "official": "République de Colombie",
-        "common": "Colombie"
+        "common": "Colombie",
+        "capital": [
+          "Bogota"
+        ]
       }
     },
     "latlng": [
@@ -5195,7 +5344,10 @@
     "translations": {
       "fra": {
         "official": "Union des Comores",
-        "common": "Comores"
+        "common": "Comores",
+        "capital": [
+          "Moroni"
+        ]
       }
     },
     "latlng": [
@@ -5291,7 +5443,10 @@
     "translations": {
       "fra": {
         "official": "République du Cap-Vert",
-        "common": "Îles du Cap-Vert"
+        "common": "Îles du Cap-Vert",
+        "capital": [
+          "Praia"
+        ]
       }
     },
     "latlng": [
@@ -5384,7 +5539,10 @@
     "translations": {
       "fra": {
         "official": "République du Costa Rica",
-        "common": "Costa Rica"
+        "common": "Costa Rica",
+        "capital": [
+          "San José"
+        ]
       }
     },
     "latlng": [
@@ -5485,7 +5643,10 @@
     "translations": {
       "fra": {
         "official": "République de Cuba",
-        "common": "Cuba"
+        "common": "Cuba",
+        "capital": [
+          "La Havane"
+        ]
       }
     },
     "latlng": [
@@ -5589,7 +5750,10 @@
     "translations": {
       "fra": {
         "official": "Pays de Curaçao",
-        "common": "Curaçao"
+        "common": "Curaçao",
+        "capital": [
+          "Willemstad"
+        ]
       }
     },
     "latlng": [
@@ -5682,7 +5846,10 @@
     "translations": {
       "fra": {
         "official": "Territoire de l'île Christmas",
-        "common": "Île Christmas"
+        "common": "Île Christmas",
+        "capital": [
+          "Flying Fish Cove"
+        ]
       }
     },
     "latlng": [
@@ -5775,7 +5942,10 @@
     "translations": {
       "fra": {
         "official": "Îles Caïmans",
-        "common": "Îles Caïmans"
+        "common": "Îles Caïmans",
+        "capital": [
+          "George Town"
+        ]
       }
     },
     "latlng": [
@@ -5873,7 +6043,10 @@
     "translations": {
       "fra": {
         "official": "République de Chypre",
-        "common": "Chypre"
+        "common": "Chypre",
+        "capital": [
+          "Nicosie"
+        ]
       }
     },
     "latlng": [
@@ -5971,7 +6144,10 @@
     "translations": {
       "fra": {
         "official": "République tchèque",
-        "common": "Tchéquie"
+        "common": "Tchéquie",
+        "capital": [
+          "Prague"
+        ]
       }
     },
     "latlng": [
@@ -6070,7 +6246,10 @@
     "translations": {
       "fra": {
         "official": "République fédérale d'Allemagne",
-        "common": "Allemagne"
+        "common": "Allemagne",
+        "capital": [
+          "Berlin"
+        ]
       }
     },
     "latlng": [
@@ -6179,7 +6358,10 @@
     "translations": {
       "fra": {
         "official": "République de Djibouti",
-        "common": "Djibouti"
+        "common": "Djibouti",
+        "capital": [
+          "Djibouti"
+        ]
       }
     },
     "latlng": [
@@ -6277,7 +6459,10 @@
     "translations": {
       "fra": {
         "official": "Commonwealth de la Dominique",
-        "common": "Dominique"
+        "common": "Dominique",
+        "capital": [
+          "Roseau"
+        ]
       }
     },
     "latlng": [
@@ -6370,7 +6555,10 @@
     "translations": {
       "fra": {
         "official": "Royaume du Danemark",
-        "common": "Danemark"
+        "common": "Danemark",
+        "capital": [
+          "Copenhague"
+        ]
       }
     },
     "latlng": [
@@ -6471,7 +6659,10 @@
     "translations": {
       "fra": {
         "official": "République Dominicaine",
-        "common": "République dominicaine"
+        "common": "République dominicaine",
+        "capital": [
+          "Saint-Domingue"
+        ]
       }
     },
     "latlng": [
@@ -6568,7 +6759,10 @@
     "translations": {
       "fra": {
         "official": "République démocratique et populaire d'Algérie",
-        "common": "Algérie"
+        "common": "Algérie",
+        "capital": [
+          "Alger"
+        ]
       }
     },
     "latlng": [
@@ -6669,7 +6863,10 @@
     "translations": {
       "fra": {
         "official": "République de l'Équateur",
-        "common": "Équateur"
+        "common": "Équateur",
+        "capital": [
+          "Quito"
+        ]
       }
     },
     "latlng": [
@@ -6768,7 +6965,10 @@
     "translations": {
       "fra": {
         "official": "République arabe d'Égypte",
-        "common": "Égypte"
+        "common": "Égypte",
+        "capital": [
+          "Le Caire"
+        ]
       }
     },
     "latlng": [
@@ -6877,7 +7077,10 @@
     "translations": {
       "fra": {
         "official": "État d'Érythrée",
-        "common": "Érythrée"
+        "common": "Érythrée",
+        "capital": [
+          "Asmara"
+        ]
       }
     },
     "latlng": [
@@ -6994,7 +7197,10 @@
     "translations": {
       "fra": {
         "official": "République arabe sahraouie démocratique",
-        "common": "Sahara Occidental"
+        "common": "Sahara Occidental",
+        "capital": [
+          "Laâyoune"
+        ]
       }
     },
     "latlng": [
@@ -7096,7 +7302,10 @@
     "translations": {
       "fra": {
         "official": "Royaume d'Espagne",
-        "common": "Espagne"
+        "common": "Espagne",
+        "capital": [
+          "Madrid"
+        ]
       }
     },
     "latlng": [
@@ -7196,7 +7405,10 @@
     "translations": {
       "fra": {
         "official": "République d'Estonie",
-        "common": "Estonie"
+        "common": "Estonie",
+        "capital": [
+          "Tallinn"
+        ]
       }
     },
     "latlng": [
@@ -7293,7 +7505,10 @@
     "translations": {
       "fra": {
         "official": "République fédérale démocratique d'Éthiopie",
-        "common": "Éthiopie"
+        "common": "Éthiopie",
+        "capital": [
+          "Addis-Abeba"
+        ]
       }
     },
     "latlng": [
@@ -7400,7 +7615,10 @@
     "translations": {
       "fra": {
         "official": "République de Finlande",
-        "common": "Finlande"
+        "common": "Finlande",
+        "capital": [
+          "Helsinki"
+        ]
       }
     },
     "latlng": [
@@ -7507,7 +7725,10 @@
     "translations": {
       "fra": {
         "official": "République des Fidji",
-        "common": "Fidji"
+        "common": "Fidji",
+        "capital": [
+          "Suva"
+        ]
       }
     },
     "latlng": [
@@ -7600,7 +7821,10 @@
     "translations": {
       "fra": {
         "official": "Îles Malouines",
-        "common": "Îles Malouines"
+        "common": "Îles Malouines",
+        "capital": [
+          "Stanley"
+        ]
       }
     },
     "latlng": [
@@ -7693,7 +7917,10 @@
     "translations": {
       "fra": {
         "official": "République française",
-        "common": "France"
+        "common": "France",
+        "capital": [
+          "Paris"
+        ]
       }
     },
     "latlng": [
@@ -7818,7 +8045,10 @@
     "translations": {
       "fra": {
         "official": "Îles Féroé",
-        "common": "Îles Féroé"
+        "common": "Îles Féroé",
+        "capital": [
+          "Tórshavn"
+        ]
       }
     },
     "latlng": [
@@ -7912,7 +8142,10 @@
     "translations": {
       "fra": {
         "official": "États fédérés de Micronésie",
-        "common": "Micronésie"
+        "common": "Micronésie",
+        "capital": [
+          "Palikir"
+        ]
       }
     },
     "latlng": [
@@ -8005,7 +8238,10 @@
     "translations": {
       "fra": {
         "official": "République gabonaise",
-        "common": "Gabon"
+        "common": "Gabon",
+        "capital": [
+          "Libreville"
+        ]
       }
     },
     "latlng": [
@@ -8103,7 +8339,10 @@
     "translations": {
       "fra": {
         "official": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
-        "common": "Royaume-Uni"
+        "common": "Royaume-Uni",
+        "capital": [
+          "Londres"
+        ]
       }
     },
     "latlng": [
@@ -8207,7 +8446,10 @@
     "translations": {
       "fra": {
         "official": "République de Géorgie",
-        "common": "Géorgie"
+        "common": "Géorgie",
+        "capital": [
+          "Tbilissi"
+        ]
       }
     },
     "latlng": [
@@ -8319,7 +8561,10 @@
     "translations": {
       "fra": {
         "official": "Bailliage de Guernesey",
-        "common": "Guernesey"
+        "common": "Guernesey",
+        "capital": [
+          "Saint-Pierre-Port"
+        ]
       }
     },
     "latlng": [
@@ -8412,7 +8657,10 @@
     "translations": {
       "fra": {
         "official": "République du Ghana",
-        "common": "Ghana"
+        "common": "Ghana",
+        "capital": [
+          "Accra"
+        ]
       }
     },
     "latlng": [
@@ -8510,7 +8758,10 @@
     "translations": {
       "fra": {
         "official": "Gibraltar",
-        "common": "Gibraltar"
+        "common": "Gibraltar",
+        "capital": [
+          "Gibraltar"
+        ]
       }
     },
     "latlng": [
@@ -8605,7 +8856,10 @@
     "translations": {
       "fra": {
         "official": "République de Guinée",
-        "common": "Guinée"
+        "common": "Guinée",
+        "capital": [
+          "Conakry"
+        ]
       }
     },
     "latlng": [
@@ -8706,7 +8960,10 @@
     "translations": {
       "fra": {
         "official": "Guadeloupe",
-        "common": "Guadeloupe"
+        "common": "Guadeloupe",
+        "capital": [
+          "Basse-Terre"
+        ]
       }
     },
     "latlng": [
@@ -8800,7 +9057,10 @@
     "translations": {
       "fra": {
         "official": "République de Gambie",
-        "common": "Gambie"
+        "common": "Gambie",
+        "capital": [
+          "Banjul"
+        ]
       }
     },
     "latlng": [
@@ -8901,7 +9161,10 @@
     "translations": {
       "fra": {
         "official": "République de Guinée-Bissau",
-        "common": "Guinée-Bissau"
+        "common": "Guinée-Bissau",
+        "capital": [
+          "Bissau"
+        ]
       }
     },
     "latlng": [
@@ -9008,7 +9271,10 @@
     "translations": {
       "fra": {
         "official": "République de Guinée équatoriale",
-        "common": "Guinée équatoriale"
+        "common": "Guinée équatoriale",
+        "capital": [
+          "Ciudad de la Paz"
+        ]
       }
     },
     "latlng": [
@@ -9106,7 +9372,10 @@
     "translations": {
       "fra": {
         "official": "République hellénique",
-        "common": "Grèce"
+        "common": "Grèce",
+        "capital": [
+          "Athènes"
+        ]
       }
     },
     "latlng": [
@@ -9204,7 +9473,10 @@
     "translations": {
       "fra": {
         "official": "Grenade",
-        "common": "Grenade"
+        "common": "Grenade",
+        "capital": [
+          "Saint-Georges"
+        ]
       }
     },
     "latlng": [
@@ -9298,7 +9570,10 @@
     "translations": {
       "fra": {
         "official": "Groenland",
-        "common": "Groenland"
+        "common": "Groenland",
+        "capital": [
+          "Nuuk"
+        ]
       }
     },
     "latlng": [
@@ -9394,7 +9669,10 @@
     "translations": {
       "fra": {
         "official": "République du Guatemala",
-        "common": "Guatemala"
+        "common": "Guatemala",
+        "capital": [
+          "Guatemala"
+        ]
       }
     },
     "latlng": [
@@ -9492,7 +9770,10 @@
     "translations": {
       "fra": {
         "official": "Guyane",
-        "common": "Guyane"
+        "common": "Guyane",
+        "capital": [
+          "Cayenne"
+        ]
       }
     },
     "latlng": [
@@ -9598,7 +9879,10 @@
     "translations": {
       "fra": {
         "official": "Guam",
-        "common": "Guam"
+        "common": "Guam",
+        "capital": [
+          "Hagåtña"
+        ]
       }
     },
     "latlng": [
@@ -9691,7 +9975,10 @@
     "translations": {
       "fra": {
         "official": "République coopérative de Guyana",
-        "common": "Guyana"
+        "common": "Guyana",
+        "capital": [
+          "Georgetown"
+        ]
       }
     },
     "latlng": [
@@ -9795,7 +10082,10 @@
     "translations": {
       "fra": {
         "official": "Région administrative spéciale de Hong Kong de la République populaire de Chine",
-        "common": "Hong Kong"
+        "common": "Hong Kong",
+        "capital": [
+          "Victoria"
+        ]
       }
     },
     "latlng": [
@@ -9878,7 +10168,8 @@
     "translations": {
       "fra": {
         "official": "Îles Heard-et-MacDonald",
-        "common": "Îles Heard-et-MacDonald"
+        "common": "Îles Heard-et-MacDonald",
+        "capital": []
       }
     },
     "latlng": [
@@ -9971,7 +10262,10 @@
     "translations": {
       "fra": {
         "official": "République du Honduras",
-        "common": "Honduras"
+        "common": "Honduras",
+        "capital": [
+          "Tegucigalpa"
+        ]
       }
     },
     "latlng": [
@@ -10068,7 +10362,10 @@
     "translations": {
       "fra": {
         "official": "République de Croatie",
-        "common": "Croatie"
+        "common": "Croatie",
+        "capital": [
+          "Zagreb"
+        ]
       }
     },
     "latlng": [
@@ -10173,7 +10470,10 @@
     "translations": {
       "fra": {
         "official": "République d'Haïti",
-        "common": "Haïti"
+        "common": "Haïti",
+        "capital": [
+          "Port-au-Prince"
+        ]
       }
     },
     "latlng": [
@@ -10268,7 +10568,10 @@
     "translations": {
       "fra": {
         "official": "Hongrie",
-        "common": "Hongrie"
+        "common": "Hongrie",
+        "capital": [
+          "Budapest"
+        ]
       }
     },
     "latlng": [
@@ -10370,7 +10673,10 @@
     "translations": {
       "fra": {
         "official": "République d'Indonésie",
-        "common": "Indonésie"
+        "common": "Indonésie",
+        "capital": [
+          "Jakarta"
+        ]
       }
     },
     "latlng": [
@@ -10478,7 +10784,10 @@
     "translations": {
       "fra": {
         "official": "Isle of Man",
-        "common": "Île de Man"
+        "common": "Île de Man",
+        "capital": [
+          "Douglas"
+        ]
       }
     },
     "latlng": [
@@ -10580,7 +10889,10 @@
     "translations": {
       "fra": {
         "official": "République de l'Inde",
-        "common": "Inde"
+        "common": "Inde",
+        "capital": [
+          "New Delhi"
+        ]
       }
     },
     "latlng": [
@@ -10681,7 +10993,10 @@
     "translations": {
       "fra": {
         "official": "Territoire britannique de l' océan Indien",
-        "common": "Territoire britannique de l'océan Indien"
+        "common": "Territoire britannique de l'océan Indien",
+        "capital": [
+          "Diego Garcia"
+        ]
       }
     },
     "latlng": [
@@ -10780,7 +11095,10 @@
     "translations": {
       "fra": {
         "official": "République d'Irlande",
-        "common": "Irlande"
+        "common": "Irlande",
+        "capital": [
+          "Dublin"
+        ]
       }
     },
     "latlng": [
@@ -10877,7 +11195,10 @@
     "translations": {
       "fra": {
         "official": "République islamique d'Iran",
-        "common": "Iran"
+        "common": "Iran",
+        "capital": [
+          "Téhéran"
+        ]
       }
     },
     "latlng": [
@@ -10989,7 +11310,10 @@
     "translations": {
       "fra": {
         "official": "République d'Irak",
-        "common": "Irak"
+        "common": "Irak",
+        "capital": [
+          "Bagdad"
+        ]
       }
     },
     "latlng": [
@@ -11090,7 +11414,10 @@
     "translations": {
       "fra": {
         "official": "République d'Islande",
-        "common": "Islande"
+        "common": "Islande",
+        "capital": [
+          "Reykjavik"
+        ]
       }
     },
     "latlng": [
@@ -11188,7 +11515,10 @@
     "translations": {
       "fra": {
         "official": "État d'Israël",
-        "common": "Israël"
+        "common": "Israël",
+        "capital": [
+          "Jérusalem"
+        ]
       }
     },
     "latlng": [
@@ -11288,7 +11618,10 @@
     "translations": {
       "fra": {
         "official": "République italienne",
-        "common": "Italie"
+        "common": "Italie",
+        "capital": [
+          "Rome"
+        ]
       }
     },
     "latlng": [
@@ -11395,7 +11728,10 @@
     "translations": {
       "fra": {
         "official": "Jamaïque",
-        "common": "Jamaïque"
+        "common": "Jamaïque",
+        "capital": [
+          "Kingston"
+        ]
       }
     },
     "latlng": [
@@ -11503,7 +11839,10 @@
     "translations": {
       "fra": {
         "official": "Bailliage de Jersey",
-        "common": "Jersey"
+        "common": "Jersey",
+        "capital": [
+          "Saint-Hélier"
+        ]
       }
     },
     "latlng": [
@@ -11597,7 +11936,10 @@
     "translations": {
       "fra": {
         "official": "Royaume hachémite de Jordanie",
-        "common": "Jordanie"
+        "common": "Jordanie",
+        "capital": [
+          "Amman"
+        ]
       }
     },
     "latlng": [
@@ -11699,7 +12041,10 @@
     "translations": {
       "fra": {
         "official": "Japon",
-        "common": "Japon"
+        "common": "Japon",
+        "capital": [
+          "Tokyo"
+        ]
       }
     },
     "latlng": [
@@ -11799,7 +12144,10 @@
     "translations": {
       "fra": {
         "official": "République du Kazakhstan",
-        "common": "Kazakhstan"
+        "common": "Kazakhstan",
+        "capital": [
+          "Astana"
+        ]
       }
     },
     "latlng": [
@@ -11903,7 +12251,10 @@
     "translations": {
       "fra": {
         "official": "République du Kenya",
-        "common": "Kenya"
+        "common": "Kenya",
+        "capital": [
+          "Nairobi"
+        ]
       }
     },
     "latlng": [
@@ -12008,7 +12359,10 @@
     "translations": {
       "fra": {
         "official": "République kirghize",
-        "common": "Kirghizistan"
+        "common": "Kirghizistan",
+        "capital": [
+          "Bichkek"
+        ]
       }
     },
     "latlng": [
@@ -12109,7 +12463,10 @@
     "translations": {
       "fra": {
         "official": "Royaume du Cambodge",
-        "common": "Cambodge"
+        "common": "Cambodge",
+        "capital": [
+          "Phnom Penh"
+        ]
       }
     },
     "latlng": [
@@ -12215,7 +12572,10 @@
     "translations": {
       "fra": {
         "official": "République de Kiribati",
-        "common": "Kiribati"
+        "common": "Kiribati",
+        "capital": [
+          "Tarawa-Sud"
+        ]
       }
     },
     "latlng": [
@@ -12311,7 +12671,10 @@
     "translations": {
       "fra": {
         "official": "Fédération de Saint-Christophe-et-Niévès",
-        "common": "Saint-Christophe-et-Niévès"
+        "common": "Saint-Christophe-et-Niévès",
+        "capital": [
+          "Basseterre"
+        ]
       }
     },
     "latlng": [
@@ -12407,7 +12770,10 @@
     "translations": {
       "fra": {
         "official": "République de Corée",
-        "common": "Corée du Sud"
+        "common": "Corée du Sud",
+        "capital": [
+          "Séoul"
+        ]
       }
     },
     "latlng": [
@@ -12504,7 +12870,10 @@
     "translations": {
       "fra": {
         "official": "République du Kosovo",
-        "common": "Kosovo"
+        "common": "Kosovo",
+        "capital": [
+          "Pristina"
+        ]
       }
     },
     "latlng": [
@@ -12602,7 +12971,10 @@
     "translations": {
       "fra": {
         "official": "État du Koweït",
-        "common": "Koweït"
+        "common": "Koweït",
+        "capital": [
+          "Koweït"
+        ]
       }
     },
     "latlng": [
@@ -12700,7 +13072,10 @@
     "translations": {
       "fra": {
         "official": "République démocratique populaire lao",
-        "common": "Laos"
+        "common": "Laos",
+        "capital": [
+          "Vientiane"
+        ]
       }
     },
     "latlng": [
@@ -12804,7 +13179,10 @@
     "translations": {
       "fra": {
         "official": "République libanaise",
-        "common": "Liban"
+        "common": "Liban",
+        "capital": [
+          "Beyrouth"
+        ]
       }
     },
     "latlng": [
@@ -12900,7 +13278,10 @@
     "translations": {
       "fra": {
         "official": "République du Libéria",
-        "common": "Liberia"
+        "common": "Liberia",
+        "capital": [
+          "Monrovia"
+        ]
       }
     },
     "latlng": [
@@ -12998,7 +13379,10 @@
     "translations": {
       "fra": {
         "official": "Grande République arabe libyenne populaire et socialiste",
-        "common": "Libye"
+        "common": "Libye",
+        "capital": [
+          "Tripoli"
+        ]
       }
     },
     "latlng": [
@@ -13099,7 +13483,10 @@
     "translations": {
       "fra": {
         "official": "Sainte-Lucie",
-        "common": "Sainte-Lucie"
+        "common": "Sainte-Lucie",
+        "capital": [
+          "Castries"
+        ]
       }
     },
     "latlng": [
@@ -13191,7 +13578,10 @@
     "translations": {
       "fra": {
         "official": "Principauté du Liechtenstein",
-        "common": "Liechtenstein"
+        "common": "Liechtenstein",
+        "capital": [
+          "Vaduz"
+        ]
       }
     },
     "latlng": [
@@ -13294,7 +13684,10 @@
     "translations": {
       "fra": {
         "official": "République démocratique socialiste du Sri Lanka",
-        "common": "Sri Lanka"
+        "common": "Sri Lanka",
+        "capital": [
+          "Sri Jayawardenepura Kotte"
+        ]
       }
     },
     "latlng": [
@@ -13398,7 +13791,10 @@
     "translations": {
       "fra": {
         "official": "Royaume du Lesotho",
-        "common": "Lesotho"
+        "common": "Lesotho",
+        "capital": [
+          "Maseru"
+        ]
       }
     },
     "latlng": [
@@ -13494,7 +13890,10 @@
     "translations": {
       "fra": {
         "official": "République de Lituanie",
-        "common": "Lituanie"
+        "common": "Lituanie",
+        "capital": [
+          "Vilnius"
+        ]
       }
     },
     "latlng": [
@@ -13603,7 +14002,10 @@
     "translations": {
       "fra": {
         "official": "Grand-Duché de Luxembourg",
-        "common": "Luxembourg"
+        "common": "Luxembourg",
+        "capital": [
+          "Luxembourg"
+        ]
       }
     },
     "latlng": [
@@ -13701,7 +14103,10 @@
     "translations": {
       "fra": {
         "official": "République de Lettonie",
-        "common": "Lettonie"
+        "common": "Lettonie",
+        "capital": [
+          "Riga"
+        ]
       }
     },
     "latlng": [
@@ -13799,7 +14204,8 @@
     "translations": {
       "fra": {
         "official": "Région administrative spéciale de Macao de la République populaire de Chine",
-        "common": "Macao"
+        "common": "Macao",
+        "capital": []
       }
     },
     "latlng": [
@@ -13894,7 +14300,10 @@
     "translations": {
       "fra": {
         "official": "Saint-Martin",
-        "common": "Saint-Martin"
+        "common": "Saint-Martin",
+        "capital": [
+          "Marigot"
+        ]
       }
     },
     "latlng": [
@@ -13996,7 +14405,10 @@
     "translations": {
       "fra": {
         "official": "Royaume du Maroc",
-        "common": "Maroc"
+        "common": "Maroc",
+        "capital": [
+          "Rabat"
+        ]
       }
     },
     "latlng": [
@@ -14092,7 +14504,10 @@
     "translations": {
       "fra": {
         "official": "Principauté de Monaco",
-        "common": "Monaco"
+        "common": "Monaco",
+        "capital": [
+          "Monaco"
+        ]
       }
     },
     "latlng": [
@@ -14187,7 +14602,10 @@
     "translations": {
       "fra": {
         "official": "République de Moldavie",
-        "common": "Moldavie"
+        "common": "Moldavie",
+        "capital": [
+          "Chisinau"
+        ]
       }
     },
     "latlng": [
@@ -14289,7 +14707,10 @@
     "translations": {
       "fra": {
         "official": "République de Madagascar",
-        "common": "Madagascar"
+        "common": "Madagascar",
+        "capital": [
+          "Antananarivo"
+        ]
       }
     },
     "latlng": [
@@ -14383,7 +14804,10 @@
     "translations": {
       "fra": {
         "official": "République des Maldives",
-        "common": "Maldives"
+        "common": "Maldives",
+        "capital": [
+          "Malé"
+        ]
       }
     },
     "latlng": [
@@ -14476,7 +14900,10 @@
     "translations": {
       "fra": {
         "official": "États-Unis du Mexique",
-        "common": "Mexique"
+        "common": "Mexique",
+        "capital": [
+          "Mexico"
+        ]
       }
     },
     "latlng": [
@@ -14581,7 +15008,10 @@
     "translations": {
       "fra": {
         "official": "République des Îles Marshall",
-        "common": "Îles Marshall"
+        "common": "Îles Marshall",
+        "capital": [
+          "Majuro"
+        ]
       }
     },
     "latlng": [
@@ -14674,7 +15104,10 @@
     "translations": {
       "fra": {
         "official": "République de Macédoine du Nord",
-        "common": "Macédoine du Nord"
+        "common": "Macédoine du Nord",
+        "capital": [
+          "Skopje"
+        ]
       }
     },
     "latlng": [
@@ -14773,7 +15206,10 @@
     "translations": {
       "fra": {
         "official": "République du Mali",
-        "common": "Mali"
+        "common": "Mali",
+        "capital": [
+          "Bamako"
+        ]
       }
     },
     "latlng": [
@@ -14880,7 +15316,10 @@
     "translations": {
       "fra": {
         "official": "République de Malte",
-        "common": "Malte"
+        "common": "Malte",
+        "capital": [
+          "La Valette"
+        ]
       }
     },
     "latlng": [
@@ -14973,7 +15412,10 @@
     "translations": {
       "fra": {
         "official": "République de l'Union du Myanmar",
-        "common": "Birmanie"
+        "common": "Birmanie",
+        "capital": [
+          "Naypyidaw"
+        ]
       }
     },
     "latlng": [
@@ -15073,7 +15515,10 @@
     "translations": {
       "fra": {
         "official": "Monténégro",
-        "common": "Monténégro"
+        "common": "Monténégro",
+        "capital": [
+          "Podgorica"
+        ]
       }
     },
     "latlng": [
@@ -15172,7 +15617,10 @@
     "translations": {
       "fra": {
         "official": "Mongolie",
-        "common": "Mongolie"
+        "common": "Mongolie",
+        "capital": [
+          "Oulan-Bator"
+        ]
       }
     },
     "latlng": [
@@ -15279,7 +15727,10 @@
     "translations": {
       "fra": {
         "official": "Commonwealth des îles Mariannes du Nord",
-        "common": "Îles Mariannes du Nord"
+        "common": "Îles Mariannes du Nord",
+        "capital": [
+          "Saipan"
+        ]
       }
     },
     "latlng": [
@@ -15371,7 +15822,10 @@
     "translations": {
       "fra": {
         "official": "République du Mozambique",
-        "common": "Mozambique"
+        "common": "Mozambique",
+        "capital": [
+          "Maputo"
+        ]
       }
     },
     "latlng": [
@@ -15473,7 +15927,10 @@
     "translations": {
       "fra": {
         "official": "République islamique de Mauritanie",
-        "common": "Mauritanie"
+        "common": "Mauritanie",
+        "capital": [
+          "Nouakchott"
+        ]
       }
     },
     "latlng": [
@@ -15571,7 +16028,10 @@
     "translations": {
       "fra": {
         "official": "Montserrat",
-        "common": "Montserrat"
+        "common": "Montserrat",
+        "capital": [
+          "Plymouth"
+        ]
       }
     },
     "latlng": [
@@ -15664,7 +16124,10 @@
     "translations": {
       "fra": {
         "official": "Martinique",
-        "common": "Martinique"
+        "common": "Martinique",
+        "capital": [
+          "Fort-de-France"
+        ]
       }
     },
     "latlng": [
@@ -15768,7 +16231,10 @@
     "translations": {
       "fra": {
         "official": "République de Maurice",
-        "common": "Île Maurice"
+        "common": "Île Maurice",
+        "capital": [
+          "Port-Louis"
+        ]
       }
     },
     "latlng": [
@@ -15868,7 +16334,10 @@
     "translations": {
       "fra": {
         "official": "République du Malawi",
-        "common": "Malawi"
+        "common": "Malawi",
+        "capital": [
+          "Lilongwe"
+        ]
       }
     },
     "latlng": [
@@ -15971,7 +16440,10 @@
     "translations": {
       "fra": {
         "official": "Fédération de Malaisie",
-        "common": "Malaisie"
+        "common": "Malaisie",
+        "capital": [
+          "Kuala Lumpur"
+        ]
       }
     },
     "latlng": [
@@ -16069,7 +16541,10 @@
     "translations": {
       "fra": {
         "official": "Département de Mayotte",
-        "common": "Mayotte"
+        "common": "Mayotte",
+        "capital": [
+          "Mamoudzou"
+        ]
       }
     },
     "latlng": [
@@ -16206,7 +16681,10 @@
     "translations": {
       "fra": {
         "official": "République de Namibie",
-        "common": "Namibie"
+        "common": "Namibie",
+        "capital": [
+          "Windhoek"
+        ]
       }
     },
     "latlng": [
@@ -16305,7 +16783,10 @@
     "translations": {
       "fra": {
         "official": "Nouvelle-Calédonie",
-        "common": "Nouvelle-Calédonie"
+        "common": "Nouvelle-Calédonie",
+        "capital": [
+          "Nouméa"
+        ]
       }
     },
     "latlng": [
@@ -16400,7 +16881,10 @@
     "translations": {
       "fra": {
         "official": "République du Niger",
-        "common": "Niger"
+        "common": "Niger",
+        "capital": [
+          "Niamey"
+        ]
       }
     },
     "latlng": [
@@ -16507,7 +16991,10 @@
     "translations": {
       "fra": {
         "official": "Territoire de l'île Norfolk",
-        "common": "Île Norfolk"
+        "common": "Île Norfolk",
+        "capital": [
+          "Kingston"
+        ]
       }
     },
     "latlng": [
@@ -16600,7 +17087,10 @@
     "translations": {
       "fra": {
         "official": "République fédérale du Nigeria",
-        "common": "Nigéria"
+        "common": "Nigéria",
+        "capital": [
+          "Abuja"
+        ]
       }
     },
     "latlng": [
@@ -16698,7 +17188,10 @@
     "translations": {
       "fra": {
         "official": "République du Nicaragua",
-        "common": "Nicaragua"
+        "common": "Nicaragua",
+        "capital": [
+          "Managua"
+        ]
       }
     },
     "latlng": [
@@ -16799,7 +17292,10 @@
     "translations": {
       "fra": {
         "official": "Niue",
-        "common": "Niue"
+        "common": "Niue",
+        "capital": [
+          "Alofi"
+        ]
       }
     },
     "latlng": [
@@ -16893,7 +17389,10 @@
     "translations": {
       "fra": {
         "official": "Pays-Bas",
-        "common": "Pays-Bas"
+        "common": "Pays-Bas",
+        "capital": [
+          "Amsterdam"
+        ]
       }
     },
     "latlng": [
@@ -17000,7 +17499,10 @@
     "translations": {
       "fra": {
         "official": "Royaume de Norvège",
-        "common": "Norvège"
+        "common": "Norvège",
+        "capital": [
+          "Oslo"
+        ]
       }
     },
     "latlng": [
@@ -17097,7 +17599,10 @@
     "translations": {
       "fra": {
         "official": "République du Népal",
-        "common": "Népal"
+        "common": "Népal",
+        "capital": [
+          "Katmandou"
+        ]
       }
     },
     "latlng": [
@@ -17198,7 +17703,10 @@
     "translations": {
       "fra": {
         "official": "République de Nauru",
-        "common": "Nauru"
+        "common": "Nauru",
+        "capital": [
+          "Yaren"
+        ]
       }
     },
     "latlng": [
@@ -17300,7 +17808,10 @@
     "translations": {
       "fra": {
         "official": "Nouvelle-Zélande",
-        "common": "Nouvelle-Zélande"
+        "common": "Nouvelle-Zélande",
+        "capital": [
+          "Wellington"
+        ]
       }
     },
     "latlng": [
@@ -17397,7 +17908,10 @@
     "translations": {
       "fra": {
         "official": "Sultanat d'Oman",
-        "common": "Oman"
+        "common": "Oman",
+        "capital": [
+          "Mascate"
+        ]
       }
     },
     "latlng": [
@@ -17500,7 +18014,10 @@
     "translations": {
       "fra": {
         "official": "République islamique du Pakistan",
-        "common": "Pakistan"
+        "common": "Pakistan",
+        "capital": [
+          "Islamabad"
+        ]
       }
     },
     "latlng": [
@@ -17602,7 +18119,10 @@
     "translations": {
       "fra": {
         "official": "République du Panama",
-        "common": "Panama"
+        "common": "Panama",
+        "capital": [
+          "Panama"
+        ]
       }
     },
     "latlng": [
@@ -17699,7 +18219,10 @@
     "translations": {
       "fra": {
         "official": "Groupe d'îles Pitcairn",
-        "common": "Îles Pitcairn"
+        "common": "Îles Pitcairn",
+        "capital": [
+          "Adamstown"
+        ]
       }
     },
     "latlng": [
@@ -17802,7 +18325,10 @@
     "translations": {
       "fra": {
         "official": "République du Pérou",
-        "common": "Pérou"
+        "common": "Pérou",
+        "capital": [
+          "Lima"
+        ]
       }
     },
     "latlng": [
@@ -17906,7 +18432,10 @@
     "translations": {
       "fra": {
         "official": "République des Philippines",
-        "common": "Philippines"
+        "common": "Philippines",
+        "capital": [
+          "Manille"
+        ]
       }
     },
     "latlng": [
@@ -18005,7 +18534,10 @@
     "translations": {
       "fra": {
         "official": "République des Palaos (Palau)",
-        "common": "Palaos (Palau)"
+        "common": "Palaos (Palau)",
+        "capital": [
+          "Ngerulmud"
+        ]
       }
     },
     "latlng": [
@@ -18108,7 +18640,10 @@
     "translations": {
       "fra": {
         "official": "État indépendant de Papouasie-Nouvelle-Guinée",
-        "common": "Papouasie-Nouvelle-Guinée"
+        "common": "Papouasie-Nouvelle-Guinée",
+        "capital": [
+          "Port Moresby"
+        ]
       }
     },
     "latlng": [
@@ -18203,7 +18738,10 @@
     "translations": {
       "fra": {
         "official": "République de Pologne",
-        "common": "Pologne"
+        "common": "Pologne",
+        "capital": [
+          "Varsovie"
+        ]
       }
     },
     "latlng": [
@@ -18310,7 +18848,10 @@
     "translations": {
       "fra": {
         "official": "Porto Rico",
-        "common": "Porto Rico"
+        "common": "Porto Rico",
+        "capital": [
+          "San Juan"
+        ]
       }
     },
     "latlng": [
@@ -18404,7 +18945,10 @@
     "translations": {
       "fra": {
         "official": "République populaire démocratique de Corée",
-        "common": "Corée du Nord"
+        "common": "Corée du Nord",
+        "capital": [
+          "Pyongyang"
+        ]
       }
     },
     "latlng": [
@@ -18501,7 +19045,10 @@
     "translations": {
       "fra": {
         "official": "République portugaise",
-        "common": "Portugal"
+        "common": "Portugal",
+        "capital": [
+          "Lisbonne"
+        ]
       }
     },
     "latlng": [
@@ -18602,7 +19149,10 @@
     "translations": {
       "fra": {
         "official": "République du Paraguay",
-        "common": "Paraguay"
+        "common": "Paraguay",
+        "capital": [
+          "Asuncion"
+        ]
       }
     },
     "latlng": [
@@ -18710,7 +19260,11 @@
     "translations": {
       "fra": {
         "official": "État de Palestine",
-        "common": "Palestine"
+        "common": "Palestine",
+        "capital": [
+          "Ramallah",
+          "Jérusalem"
+        ]
       }
     },
     "latlng": [
@@ -18809,7 +19363,10 @@
     "translations": {
       "fra": {
         "official": "Polynésie française",
-        "common": "Polynésie française"
+        "common": "Polynésie française",
+        "capital": [
+          "Papeete"
+        ]
       }
     },
     "latlng": [
@@ -18905,7 +19462,10 @@
     "translations": {
       "fra": {
         "official": "État du Qatar",
-        "common": "Qatar"
+        "common": "Qatar",
+        "capital": [
+          "Doha"
+        ]
       }
     },
     "latlng": [
@@ -19000,7 +19560,10 @@
     "translations": {
       "fra": {
         "official": "Ile de la Réunion",
-        "common": "Réunion"
+        "common": "Réunion",
+        "capital": [
+          "Saint-Denis"
+        ]
       }
     },
     "latlng": [
@@ -19093,7 +19656,10 @@
     "translations": {
       "fra": {
         "official": "Roumanie",
-        "common": "Roumanie"
+        "common": "Roumanie",
+        "capital": [
+          "Bucarest"
+        ]
       }
     },
     "latlng": [
@@ -19200,7 +19766,10 @@
     "translations": {
       "fra": {
         "official": "Fédération de Russie",
-        "common": "Russie"
+        "common": "Russie",
+        "capital": [
+          "Moscou"
+        ]
       }
     },
     "latlng": [
@@ -19327,7 +19896,10 @@
     "translations": {
       "fra": {
         "official": "République rwandaise",
-        "common": "Rwanda"
+        "common": "Rwanda",
+        "capital": [
+          "Kigali"
+        ]
       }
     },
     "latlng": [
@@ -19427,7 +19999,10 @@
     "translations": {
       "fra": {
         "official": "Royaume d'Arabie Saoudite",
-        "common": "Arabie Saoudite"
+        "common": "Arabie Saoudite",
+        "capital": [
+          "Riyad"
+        ]
       }
     },
     "latlng": [
@@ -19538,7 +20113,10 @@
     "translations": {
       "fra": {
         "official": "Écosse",
-        "common": "Écosse"
+        "common": "Écosse",
+        "capital": [
+          "Édimbourg"
+        ]
       }
     },
     "latlng": [
@@ -19638,7 +20216,10 @@
     "translations": {
       "fra": {
         "official": "République du Soudan",
-        "common": "Soudan"
+        "common": "Soudan",
+        "capital": [
+          "Khartoum"
+        ]
       }
     },
     "latlng": [
@@ -19741,7 +20322,10 @@
     "translations": {
       "fra": {
         "official": "République du Sénégal",
-        "common": "Sénégal"
+        "common": "Sénégal",
+        "capital": [
+          "Dakar"
+        ]
       }
     },
     "latlng": [
@@ -19858,7 +20442,10 @@
     "translations": {
       "fra": {
         "official": "République de Singapour",
-        "common": "Singapour"
+        "common": "Singapour",
+        "capital": [
+          "Singapour"
+        ]
       }
     },
     "latlng": [
@@ -19951,7 +20538,10 @@
     "translations": {
       "fra": {
         "official": "Géorgie du Sud et les îles Sandwich du Sud",
-        "common": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+        "common": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+        "capital": [
+          "King Edward Point"
+        ]
       }
     },
     "latlng": [
@@ -20044,7 +20634,10 @@
     "translations": {
       "fra": {
         "official": "Jan Mayen Svalbard",
-        "common": "Svalbard et Jan Mayen"
+        "common": "Svalbard et Jan Mayen",
+        "capital": [
+          "Longyearbyen"
+        ]
       }
     },
     "latlng": [
@@ -20137,7 +20730,10 @@
     "translations": {
       "fra": {
         "official": "Îles Salomon",
-        "common": "Îles Salomon"
+        "common": "Îles Salomon",
+        "capital": [
+          "Honiara"
+        ]
       }
     },
     "latlng": [
@@ -20230,7 +20826,10 @@
     "translations": {
       "fra": {
         "official": "République de Sierra Leone",
-        "common": "Sierra Leone"
+        "common": "Sierra Leone",
+        "capital": [
+          "Freetown"
+        ]
       }
     },
     "latlng": [
@@ -20327,7 +20926,10 @@
     "translations": {
       "fra": {
         "official": "République du Salvador",
-        "common": "Salvador"
+        "common": "Salvador",
+        "capital": [
+          "San Salvador"
+        ]
       }
     },
     "latlng": [
@@ -20423,7 +21025,10 @@
     "translations": {
       "fra": {
         "official": "République de Saint-Marin",
-        "common": "Saint-Marin"
+        "common": "Saint-Marin",
+        "capital": [
+          "Saint-Marin"
+        ]
       }
     },
     "latlng": [
@@ -20523,7 +21128,10 @@
     "translations": {
       "fra": {
         "official": "République fédérale de Somalie",
-        "common": "Somalie"
+        "common": "Somalie",
+        "capital": [
+          "Mogadiscio"
+        ]
       }
     },
     "latlng": [
@@ -20619,7 +21227,10 @@
     "translations": {
       "fra": {
         "official": "Saint-Pierre-et-Miquelon",
-        "common": "Saint-Pierre-et-Miquelon"
+        "common": "Saint-Pierre-et-Miquelon",
+        "capital": [
+          "Saint-Pierre"
+        ]
       }
     },
     "latlng": [
@@ -20714,7 +21325,10 @@
     "translations": {
       "fra": {
         "official": "République de Serbie",
-        "common": "Serbie"
+        "common": "Serbie",
+        "capital": [
+          "Belgrade"
+        ]
       }
     },
     "latlng": [
@@ -20817,7 +21431,10 @@
     "translations": {
       "fra": {
         "official": "République du Soudan du Sud",
-        "common": "Soudan du Sud"
+        "common": "Soudan du Sud",
+        "capital": [
+          "Djouba"
+        ]
       }
     },
     "latlng": [
@@ -20919,7 +21536,10 @@
     "translations": {
       "fra": {
         "official": "République démocratique de São Tomé et Príncipe",
-        "common": "São Tomé et Príncipe"
+        "common": "São Tomé et Príncipe",
+        "capital": [
+          "São Tomé"
+        ]
       }
     },
     "latlng": [
@@ -21013,7 +21633,10 @@
     "translations": {
       "fra": {
         "official": "République du Suriname",
-        "common": "Surinam"
+        "common": "Surinam",
+        "capital": [
+          "Paramaribo"
+        ]
       }
     },
     "latlng": [
@@ -21111,7 +21734,10 @@
     "translations": {
       "fra": {
         "official": "République slovaque",
-        "common": "Slovaquie"
+        "common": "Slovaquie",
+        "capital": [
+          "Bratislava"
+        ]
       }
     },
     "latlng": [
@@ -21211,7 +21837,10 @@
     "translations": {
       "fra": {
         "official": "République de Slovénie",
-        "common": "Slovénie"
+        "common": "Slovénie",
+        "capital": [
+          "Ljubljana"
+        ]
       }
     },
     "latlng": [
@@ -21310,7 +21939,10 @@
     "translations": {
       "fra": {
         "official": "Royaume de Suède",
-        "common": "Suède"
+        "common": "Suède",
+        "capital": [
+          "Stockholm"
+        ]
       }
     },
     "latlng": [
@@ -21415,7 +22047,10 @@
     "translations": {
       "fra": {
         "official": "Royaume d’Eswatini",
-        "common": "Swaziland"
+        "common": "Swaziland",
+        "capital": [
+          "Mbabane"
+        ]
       }
     },
     "latlng": [
@@ -21522,7 +22157,10 @@
     "translations": {
       "fra": {
         "official": "Sint Maarten",
-        "common": "Saint-Martin"
+        "common": "Saint-Martin",
+        "capital": [
+          "Philipsburg"
+        ]
       }
     },
     "latlng": [
@@ -21628,7 +22266,10 @@
     "translations": {
       "fra": {
         "official": "République des Seychelles",
-        "common": "Seychelles"
+        "common": "Seychelles",
+        "capital": [
+          "Victoria"
+        ]
       }
     },
     "latlng": [
@@ -21725,7 +22366,10 @@
     "translations": {
       "fra": {
         "official": "République arabe syrienne",
-        "common": "Syrie"
+        "common": "Syrie",
+        "capital": [
+          "Damas"
+        ]
       }
     },
     "latlng": [
@@ -21825,7 +22469,10 @@
     "translations": {
       "fra": {
         "official": "Îles Turques et Caïques",
-        "common": "Îles Turques-et-Caïques"
+        "common": "Îles Turques-et-Caïques",
+        "capital": [
+          "Cockburn Town"
+        ]
       }
     },
     "latlng": [
@@ -21923,7 +22570,10 @@
     "translations": {
       "fra": {
         "official": "République du Tchad",
-        "common": "Tchad"
+        "common": "Tchad",
+        "capital": [
+          "N'Djaména"
+        ]
       }
     },
     "latlng": [
@@ -22024,7 +22674,10 @@
     "translations": {
       "fra": {
         "official": "République togolaise",
-        "common": "Togo"
+        "common": "Togo",
+        "capital": [
+          "Lomé"
+        ]
       }
     },
     "latlng": [
@@ -22123,7 +22776,10 @@
     "translations": {
       "fra": {
         "official": "Royaume de Thaïlande",
-        "common": "Thaïlande"
+        "common": "Thaïlande",
+        "capital": [
+          "Bangkok"
+        ]
       }
     },
     "latlng": [
@@ -22226,7 +22882,10 @@
     "translations": {
       "fra": {
         "official": "République du Tadjikistan",
-        "common": "Tadjikistan"
+        "common": "Tadjikistan",
+        "capital": [
+          "Douchanbé"
+        ]
       }
     },
     "latlng": [
@@ -22335,7 +22994,10 @@
     "translations": {
       "fra": {
         "official": "Îles Tokelau",
-        "common": "Tokelau"
+        "common": "Tokelau",
+        "capital": [
+          "Fakaofo"
+        ]
       }
     },
     "latlng": [
@@ -22433,7 +23095,10 @@
     "translations": {
       "fra": {
         "official": "Turkménistan",
-        "common": "Turkménistan"
+        "common": "Turkménistan",
+        "capital": [
+          "Achgabat"
+        ]
       }
     },
     "latlng": [
@@ -22535,7 +23200,10 @@
     "translations": {
       "fra": {
         "official": "République démocratique du Timor oriental",
-        "common": "Timor oriental"
+        "common": "Timor oriental",
+        "capital": [
+          "Dili"
+        ]
       }
     },
     "latlng": [
@@ -22635,7 +23303,10 @@
     "translations": {
       "fra": {
         "official": "Royaume des Tonga",
-        "common": "Tonga"
+        "common": "Tonga",
+        "capital": [
+          "Nuku'alofa"
+        ]
       }
     },
     "latlng": [
@@ -22728,7 +23399,10 @@
     "translations": {
       "fra": {
         "official": "République de Trinité-et-Tobago",
-        "common": "Trinité-et-Tobago"
+        "common": "Trinité-et-Tobago",
+        "capital": [
+          "Port-d'Espagne"
+        ]
       }
     },
     "latlng": [
@@ -22821,7 +23495,10 @@
     "translations": {
       "fra": {
         "official": "République tunisienne",
-        "common": "Tunisie"
+        "common": "Tunisie",
+        "capital": [
+          "Tunis"
+        ]
       }
     },
     "latlng": [
@@ -22917,7 +23594,10 @@
     "translations": {
       "fra": {
         "official": "République de Turquie",
-        "common": "Turquie"
+        "common": "Turquie",
+        "capital": [
+          "Ankara"
+        ]
       }
     },
     "latlng": [
@@ -23027,7 +23707,10 @@
     "translations": {
       "fra": {
         "official": "Tuvalu",
-        "common": "Tuvalu"
+        "common": "Tuvalu",
+        "capital": [
+          "Funafuti"
+        ]
       }
     },
     "latlng": [
@@ -23122,7 +23805,10 @@
     "translations": {
       "fra": {
         "official": "République de Chine (Taïwan)",
-        "common": "Taïwan"
+        "common": "Taïwan",
+        "capital": [
+          "Taipei"
+        ]
       }
     },
     "latlng": [
@@ -23220,7 +23906,10 @@
     "translations": {
       "fra": {
         "official": "République -Unie de Tanzanie",
-        "common": "Tanzanie"
+        "common": "Tanzanie",
+        "capital": [
+          "Dodoma"
+        ]
       }
     },
     "latlng": [
@@ -23329,7 +24018,10 @@
     "translations": {
       "fra": {
         "official": "République de l'Ouganda",
-        "common": "Ouganda"
+        "common": "Ouganda",
+        "capital": [
+          "Kampala"
+        ]
       }
     },
     "latlng": [
@@ -23430,7 +24122,10 @@
     "translations": {
       "fra": {
         "official": "Ukraine",
-        "common": "Ukraine"
+        "common": "Ukraine",
+        "capital": [
+          "Kiev"
+        ]
       }
     },
     "latlng": [
@@ -23528,7 +24223,10 @@
     "translations": {
       "fra": {
         "official": "Îles mineures éloignées des États-Unis",
-        "common": "Îles mineures éloignées des États-Unis"
+        "common": "Îles mineures éloignées des États-Unis",
+        "capital": [
+          "Washington"
+        ]
       }
     },
     "latlng": [
@@ -23624,7 +24322,10 @@
     "translations": {
       "fra": {
         "official": "République orientale de l'Uruguay",
-        "common": "Uruguay"
+        "common": "Uruguay",
+        "capital": [
+          "Montevideo"
+        ]
       }
     },
     "latlng": [
@@ -24036,7 +24737,10 @@
     "translations": {
       "fra": {
         "official": "Les états-unis d'Amérique",
-        "common": "États-Unis"
+        "common": "États-Unis",
+        "capital": [
+          "Washington"
+        ]
       }
     },
     "latlng": [
@@ -24148,7 +24852,10 @@
     "translations": {
       "fra": {
         "official": "République d'Ouzbékistan",
-        "common": "Ouzbékistan"
+        "common": "Ouzbékistan",
+        "capital": [
+          "Tachkent"
+        ]
       }
     },
     "latlng": [
@@ -24254,7 +24961,10 @@
     "translations": {
       "fra": {
         "official": "Cité du Vatican",
-        "common": "Cité du Vatican"
+        "common": "Cité du Vatican",
+        "capital": [
+          "Cité du Vatican"
+        ]
       }
     },
     "latlng": [
@@ -24349,7 +25059,10 @@
     "translations": {
       "fra": {
         "official": "Saint-Vincent-et-les Grenadines",
-        "common": "Saint-Vincent-et-les-Grenadines"
+        "common": "Saint-Vincent-et-les-Grenadines",
+        "capital": [
+          "Kingstown"
+        ]
       }
     },
     "latlng": [
@@ -24443,7 +25156,10 @@
     "translations": {
       "fra": {
         "official": "République bolivarienne du Venezuela",
-        "common": "Venezuela"
+        "common": "Venezuela",
+        "capital": [
+          "Caracas"
+        ]
       }
     },
     "latlng": [
@@ -24541,7 +25257,10 @@
     "translations": {
       "fra": {
         "official": "îles Vierges",
-        "common": "Îles Vierges britanniques"
+        "common": "Îles Vierges britanniques",
+        "capital": [
+          "Road Town"
+        ]
       }
     },
     "latlng": [
@@ -24634,7 +25353,10 @@
     "translations": {
       "fra": {
         "official": "Îles Vierges des États-Unis",
-        "common": "Îles Vierges des États-Unis"
+        "common": "Îles Vierges des États-Unis",
+        "capital": [
+          "Charlotte-Amalie"
+        ]
       }
     },
     "latlng": [
@@ -24728,7 +25450,10 @@
     "translations": {
       "fra": {
         "official": "République socialiste du Viêt Nam",
-        "common": "Viêt Nam"
+        "common": "Viêt Nam",
+        "capital": [
+          "Hanoï"
+        ]
       }
     },
     "latlng": [
@@ -24834,7 +25559,10 @@
     "translations": {
       "fra": {
         "official": "République de Vanuatu",
-        "common": "Vanuatu"
+        "common": "Vanuatu",
+        "capital": [
+          "Port-Vila"
+        ]
       }
     },
     "latlng": [
@@ -24929,7 +25657,10 @@
     "translations": {
       "fra": {
         "official": "Territoire des îles Wallis et Futuna",
-        "common": "Wallis-et-Futuna"
+        "common": "Wallis-et-Futuna",
+        "capital": [
+          "Mata-Utu"
+        ]
       }
     },
     "latlng": [
@@ -25028,7 +25759,10 @@
     "translations": {
       "fra": {
         "official": "Pays de Galles",
-        "common": "Pays de Galles"
+        "common": "Pays de Galles",
+        "capital": [
+          "Cardiff"
+        ]
       }
     },
     "latlng": [
@@ -25129,7 +25863,10 @@
     "translations": {
       "fra": {
         "official": "Samoa",
-        "common": "Samoa"
+        "common": "Samoa",
+        "capital": [
+          "Apia"
+        ]
       }
     },
     "latlng": [
@@ -25222,7 +25959,10 @@
     "translations": {
       "fra": {
         "official": "République du Yémen",
-        "common": "Yémen"
+        "common": "Yémen",
+        "capital": [
+          "Sanaa"
+        ]
       }
     },
     "latlng": [
@@ -25371,7 +26111,12 @@
     "translations": {
       "fra": {
         "official": "République d'Afrique du Sud",
-        "common": "Afrique du Sud"
+        "common": "Afrique du Sud",
+        "capital": [
+          "Pretoria",
+          "Bloemfontein",
+          "Le Cap"
+        ]
       }
     },
     "latlng": [
@@ -25472,7 +26217,10 @@
     "translations": {
       "fra": {
         "official": "République de Zambie",
-        "common": "Zambie"
+        "common": "Zambie",
+        "capital": [
+          "Lusaka"
+        ]
       }
     },
     "latlng": [
@@ -25643,7 +26391,10 @@
     "translations": {
       "fra": {
         "official": "République du Zimbabwe",
-        "common": "Zimbabwe"
+        "common": "Zimbabwe",
+        "capital": [
+          "Harare"
+        ]
       }
     },
     "latlng": [
