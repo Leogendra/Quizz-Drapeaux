@@ -225,7 +225,7 @@ const Pays = () => {
                         <Carte
                             key={index}
                             name={pays.translations.fra.common}
-                            capital={pays.capital.join(", ")}
+                            capital={pays.translations.fra.capital.join(", ")}
                             population={pays.population}
                             flag={pays.flags.svg}
                         />
