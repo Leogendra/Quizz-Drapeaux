@@ -1,11 +1,27 @@
 @use "settings";
 
 .navigation {
+    margin: 30px 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
     ul {
         display: flex;
-        margin: 30px;
+        width: max-content;
+        min-width: 100%;
+        padding: 0 30px;
 
         a {
+            flex: 0 0 auto;
+            white-space: nowrap;
             text-decoration: none;
             padding: 10px;
 
