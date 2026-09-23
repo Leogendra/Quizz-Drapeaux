@@ -77,6 +77,18 @@ const Pays = () => {
         return false;
     }
 
+    function toggleNbPays() {
+        const prochainNbPays = (nbPays == 1) ? 300 : 1;
+        setNbPays(prochainNbPays);
+        // Le filtre couleurs est masqué hors du mode "tous les pays" : on le vide
+        // pour ne pas restreindre la liste sans que rien ne l'indique à l'écran
+        if (prochainNbPays == 1) {
+            setSelectedColors([]);
+            setColorInput("");
+            setCurrentIndex(0);
+        }
+    }
+
     function removeColor(color) {
         setSelectedColors(prev => prev.filter(c => c !== color));
         setCurrentIndex(0);
@@ -193,7 +205,7 @@ const Pays = () => {
 
                 <li>
                     {/* Bouton qui permet de passer d'un pays à tous les pays */}
-                    {<button className={"count-button " + ((nbPays == 1) ? "oneCountries" : "allCountries")} onClick={() => setNbPays((nbPays == 1) ? 300 : 1)}>
+                    {<button className={"count-button " + ((nbPays == 1) ? "oneCountries" : "allCountries")} onClick={() => toggleNbPays()}>
                         {/* fantôme à 3 chiffres : fige la largeur du bouton pendant que le compteur change */}
                         <span className="count-ghost" aria-hidden="true">Tous les pays (000)</span>
                         <span>Tous les pays ({tailleDataFiltree()})</span>
@@ -205,7 +217,8 @@ const Pays = () => {
                     {<button className={(mode == 1) ? "modeEasy" : "modeHard"} onClick={() => setMode((mode == 1) ? 2 : 1)}>Mode intervale</button>}
                 </li>
 
-                <li className="color-filter-row">
+                {/* Le filtre couleurs n'a de sens que sur la grille complète */}
+                {(nbPays == 300) && <li className="color-filter-row">
                     <label htmlFor="color-input">Couleurs</label>
                     <div className="color-filters">
                         {selectedColors.map(color => (
@@ -230,7 +243,7 @@ const Pays = () => {
                             ))}
                         </datalist>
                     </div>
-                </li>
+                </li>}
 
             </ul>
 

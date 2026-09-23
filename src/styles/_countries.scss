@@ -123,11 +123,13 @@
             width: 100%;
             display: flex;
             align-items: center;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 6px;
 
+            // pas de marge : l'espacement vient du `gap`, sinon le centrage est décalé
             >label {
-                margin: 0 6px 0 0;
+                margin: 0;
                 white-space: nowrap;
             }
         }
